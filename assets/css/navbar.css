@@ -1,0 +1,24 @@
+.be-vietnam-pro-thin {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+}
+.custom-navbar {
+  width: 1300px;
+  height: 103px;
+  margin: 0 auto; /* Center the navbar */
+  padding: 30px 0;
+}
+.custom-navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.custom-navbar .navbar-nav .nav-item .nav-link {
+  color: black; /* Customize as needed */
+  margin: 0 10px; /* Adjust spacing between links */
+}
+
+.navbar-nav {
+  gap: 5px;
+}
