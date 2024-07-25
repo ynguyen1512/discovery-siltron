@@ -1,37 +1,37 @@
 :root {
-    --white-color: #fff;
-    --pri-dac: #419636;
-    --sce-dac: #534D44;
-    --c50-dac: #F2FBF2;
-    --c100-dac:#fff;
-    --c900-dac: #25471F;
-    --pri-ds: #FF6600;
-    --sce-ds: #183E62;
-    --text-ds: #66717A;
-    --c100-ds: #E3EEFB;
+  --white-color: #fff;
+  --pri-dac: #419636;
+  --sce-dac: #534d44;
+  --c50-dac: #f2fbf2;
+  --c100-dac: #fff;
+  --c900-dac: #25471f;
+  --pri-ds: #ff6600;
+  --sce-ds: #183e62;
+  --text-ds: #66717a;
+  --c100-ds: #e3eefb;
 }
 
 * {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
-    line-height: 1.6rem;
-    box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
 }
 
 .grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .grid_full_width {
-    width: 100%;
+  width: 100%;
 }
 
 .grid_row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
