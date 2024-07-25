@@ -28,10 +28,10 @@
         <!-- Header-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white custom-navbar be-vietnam-pro-thin">
             <div class="container-fluid d-flex justify-content-between align-items-center gap-10">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand d-md-none d-sm-none d-none d-lg-block" href="#">
                     <img src="./assets/images/logo.png" alt="Logo" height="50"> <!-- Adjust the height as needed -->
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,39 +39,59 @@
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item fw-bold d-flex align-items-center justify-content-start">
                             <a class="nav-link" href="#">Trang chủ</a>
-                            <img src="./assets/images/arrow.png" alt="arrow" height="8" />
+                            <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
                         </li>
                         <li class="nav-item fw-bold d-flex align-items-center">
                             <a class="nav-link" href="#">Giới Thiệu</a>
-                            <img src="./assets/images/arrow.png" alt="arrow" height="8" />
+                            <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
                         </li>
                         <li class="nav-item fw-bold d-flex align-items-center">
                             <a class="nav-link" href="#">Ban Lãnh Đạo</a>
-                            <img src="./assets/images/arrow.png" alt="arrow" height="8" />
+                            <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
                         </li>
                         <li class="nav-item fw-bold d-flex align-items-center">
                             <a class="nav-link" href="#">Sản Phẩm - Dịch Vụ</a>
-                            <img src="./assets/images/arrow.png" alt="arrow" height="8" />
+                            <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
                         </li>
                         <li class="nav-item fw-bold d-flex align-items-center">
                             <a class="nav-link" href="#">Tin Tức - Sự Kiện</a>
-                            <img src="./assets/images/arrow.png" alt="arrow" height="8" />
+                            <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
                         </li>
                         <li class="nav-item fw-bold d-flex align-items-center">
                             <a class="nav-link" href="#">Liên Hệ</a>
-                            <img src="./assets/images/arrow.png" alt="arrow" height="8" />
+                            <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
                         </li>
                     </ul>
                     <div class="d-flex justify-content-between align-items-center gap-3">
-                        <img src="./assets/images/phone.png" alt="Logo" height="35" class="flex-shrink-0">
+                        <img src="./assets/images/icon/phone.png" alt="Logo" height="35" class="flex-shrink-0">
                         <div class="">
                             <div class="fw-bold">097380808</div>
                             <div>Mo - Su: 07:00 - 21:00</div>
                         </div>
                     </div>
                 </div>
+                <div class="social-icons d-flex ms-auto d-lg-none gap-5">
+                    <a href="#"><img src="assets/images/icon/fb.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/images/icon/insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="assets/images/icon/tw.png" alt="Twitter"></a>
+                    <a href="#"><img src="assets/images/icon/ytb.png" alt="YouTube"></a>
+                    <a href="#"><img src="assets/images/icon/flag.png" alt="Language"></a>
+                </div>
             </div>
         </nav>
+        <div class="full-screen-menu" id="fullScreenMenu">
+            <span class="close-btn" id="closeMenu">&times;</span>
+            <a class="navbar-brand mb-5" href="#">
+                <img src="./assets/images/logo-responsive.png" alt="Logo" height="100">
+                <!-- Adjust the height as needed -->
+            </a>
+            <a class="nav-link" href="#">Trang chủ</a>
+            <a class="nav-link" href="#">Giới Thiệu</a>
+            <a class="nav-link" href="#">Ban Lãnh Đạo</a>
+            <a class="nav-link" href="#">Sản Phẩm - Dịch Vụ</a>
+            <a class="nav-link" href="#">Tin Tức - Sự Kiện</a>
+            <a class="nav-link" href="#">Liên Hệ</a>
+        </div>
         <div>
             <!-- Carousel -->
 
@@ -93,6 +113,7 @@
 
         </footer>
     </div>
+    <script src="./assets/js/navbar.js"></script>
 </body>
 
 </html>
