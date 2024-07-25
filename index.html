@@ -1,42 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+        integrity="sha512-D1yfepjqnHPWJS4SNhX1iT7iB4qO5J6H+qi8UuOIFV/p8MBukAzZcxJbEU5N7COF9U1nb8H8A/x4HyBoG9gs5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Discovery Age Care</title>
+    <style>
+
+    </style>
 </head>
+
 <body>
     <div class="app">
         <!-- Header-->
-        <header class="header">
 
-        </header>
-        <div>
-            <!-- Carousel -->
-
-            <!-- Thien duong tron kiep nhan sinh -->
-
-            <!-- About Discovery Age Care -->
-
-            <!-- At our center  -->
-
-            <!-- Ambulance call -->
-
-            <!-- Che do an uong -->
-
-            <!-- Blog -->
-
+        <!-- Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/hands.jpeg" class="d-block w-100" alt="First slide">
+                    <div class="carousel-caption">
+                        <div>KHÔNG GIAN SỐNG</div> NGƯỜI CAO TUỔI
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/kiss.jpeg" class="d-block w-100" alt="Second slide">
+                    <div class="carousel-caption">
+                        YOUR HAPPY - OUR PLAN
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="social-icons">
+                <div class="icon">
+                    <a href="#"><img src="./assets/images/facebook.png" /></a>
+                    <a href="#"><img src="./assets/images/instagram.png" /></a>
+                    <a href="#"><img src="./assets/images/twitter.png" /></a>
+                    <a href="#"><img src="./assets/images/youtube.png" /></a>
+                </div>
+                <div class="vertical-line"></div>
+            </div>
         </div>
-        <!-- Footer -->
-        <footer class="footer">
-
-        </footer>
+        <!-- Schedule section -->
+        <div class="schedule-section">
+            <div class="container">
+                <p>Chế độ ăn uống</p>
+                <h2><div>Chế Độ Ăn Uống Và Sinh Hoạt</div> Của Người Cao Tuổi</h2>
+                <div class="schedule-row">
+                    <div class="col-left">
+                        <img src="./assets/images/schedule.png" class="schedule-img"/>
+                    </div>
+                    <div class="col-right">
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/wakeup.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">05:00 - 06:30</h3>
+                                    <p>Thức dậy và vệ sinh cá nhân</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item active">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/coffee.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content active">
+                                    <h3 class="schedule-item-time">06:30 - 07:30</h3>
+                                    <p>Thư giãn - Xem thời sự - Uống sữa hoặc cafe buổi sáng</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/medicine.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">07:30 - 08:15</h3>
+                                    <p>Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/activities.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">08:15 - 10:30</h3>
+                                    <p>Sinh hoạt tập thể - Tập vật lý trị liệu</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/meditation.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">10:30 - 11:00</h3>
+                                    <p>Thư giãn - Tắm</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/medicine.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">11:00 - 12:00</h3>
+                                    <p>Ăn trưa - Uống thuốc</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/clock.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">12:00 - 14:00</h3>
+                                    <p>Nghỉ trưa</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/activities.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">15:00 - 16:45</h3>
+                                    <p>Sinh hoạt tập thể - Tập vật lý trị liệu</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/medicine.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">16:45 - 18:00</h3>
+                                    <p>Ăn tối - Uống thuốc - Thư giãn</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/icon-yt.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">18:00 - 20:30</h3>
+                                    <p>Vệ sinh cá nhân - Xem thời sự - Trò chuyện</p>
+                                </div>
+                            </div>
+                            <div class="schedule-item">
+                                <div class="schedule-item-icon">
+                                    <img src="./assets/images/sleeping.png" width="35" height="35"/>
+                                </div>
+                                <div class="schedule-item-content">
+                                    <h3 class="schedule-item-time">Sau 20:30</h3>
+                                    <p>Nghỉ ngơi</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXlKw1T+Pp2SxT5UMISCbG0PC5Uz4eI1CIp+5L6C9m6aK/eIbvL8syOj8D0g"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhG81rKr3GUL2N7vT1a3eQ6f2QNFqG1SBXtIppgMqxEZBhkswVP4rRi8B8jT"
+        crossorigin="anonymous"></script>
+</div>
 </body>
+
 </html>
