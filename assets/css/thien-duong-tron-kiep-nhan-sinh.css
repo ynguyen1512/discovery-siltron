@@ -39,6 +39,11 @@
   filter: invert(1) sepia(1) saturate(5) hue-rotate(90deg);
 }
 
+.icon-text-active {
+  background-color: var(--pri-dac);
+  color: var(--white-color);
+}
+
 .icon-text p {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 600;
