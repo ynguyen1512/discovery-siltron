@@ -1,0 +1,185 @@
+.be-vietnam-pro-thin {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+}
+.be-vietnam-pro-bold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.blog .subtitle {
+  text-align: center;
+
+  font-size: 14px;
+  font-style: italic;
+  line-height: 17.71px;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: var(--sce-dac);
+  margin-bottom: 10px;
+}
+.blog .title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50.6px;
+  color: var(--sce-dac);
+}
+.blog .cover {
+  padding: 70px 0;
+}
+.blog .recent-posts {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px;
+}
+/* .blog .grid-item:first-child .post {
+    position: relative;
+}
+.blog .grid-item:first-child .post::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 270px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, #419636 100%);
+    border-radius: 15px;
+    opacity: .6;
+} */
+.blog .grid-item .icon {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+.blog .post {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .post img {
+  border-radius: 15px;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  max-height: 270px;
+}
+.blog .post h3 {
+  font-size: 16px;
+  color: var(--sce-dac);
+}
+.blog .post .category {
+  border-left: 0.5px solid;
+  border-right: 0.5px solid;
+  border-color: var(--sce-dac);
+  padding: 0 10px;
+  line-height: 10px;
+}
+
+.blog .post-info {
+  font-size: 12px;
+  color: var(--sce-dac);
+  margin: 20px 0;
+}
+.blog .post .detail {
+  text-decoration: none;
+}
+.blog .post .detail p {
+  margin: 0;
+}
+.blog .post .detail .detail-cover {
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--pri-dac);
+  display: flex;
+}
+.blog .post .detail .icon-group img {
+  width: 6px;
+  height: 18px;
+}
+.blog .post .detail .icon-group {
+  margin-left: 10px;
+  letter-spacing: -5px;
+}
+
+.blog .date,
+.category,
+.views,
+.comments {
+  color: var(--sce-dac);
+  font-size: 0.9em;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blog .post h3 {
+  color: var(--sce-dac);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.blog .post .description {
+  color: var(--sce-dac);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.blog .post-style-2 {
+  padding: 20px;
+  background-color: var(--c50-dac);
+}
+.blog .carousel-indicators li {
+  background-image: url("../svg/diamond.svg");
+  background-size: cover;
+  background-position: center;
+  width: 12px !important;
+  height: 9px !important;
+  background-color: transparent !important;
+  opacity: 0.1 !important;
+}
+.blog .carousel-indicators li.active {
+  opacity: 1 !important;
+}
+.blog .screen-pc {
+  display: grid;
+}
+.blog .screen-mobile {
+  display: none;
+}
+@media (max-width: 770px) {
+  .blog .screen-pc {
+    display: none;
+  }
+  .blog .screen-mobile {
+    display: block;
+  }
+  .blog .post h3 {
+    font-size: 14px;
+  }
+
+  .blog .post .description {
+    font-size: 12px;
+  }
+  .blog .subtitle {
+    font-size: 12px;
+  }
+  .blog .title {
+    font-size: 20px;
+  }
+  .blog .recent-posts {
+    margin-top: 25px;
+  }
+  .blog .post .detail .detail-cover {
+    font-size: 10px;
+  }
+  .blog .post .detail .icon-group img {
+    width: 4px;
+    height: 14px;
+  }
+}
