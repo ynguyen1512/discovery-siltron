@@ -23,6 +23,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <title>Discovery Age Care</title>
 </head>
 
@@ -172,58 +173,44 @@
       </div>
     </div>
     <!-- Thien duong tron kiep nhan sinh -->
-    <section class="py-5" id="thien-duong-tron-kiep-nhan-sinh">
-      <div class="container">
-        <div class="header-text">
-          <h5>Discovery Age Care</h5>
-          <h2>Thiên đường trọn kiếp nhân sinh</h2>
+
+<section class="py-5" id="thien-duong-tron-kiep-nhan-sinh">
+  <div class="">
+    <div class="header-text">
+      <h5>Discovery Age Care</h5>
+      <h2>Thiên đường trọn kiếp nhân sinh</h2>
+    </div>
+    <div class="swiper-container mt-4">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide icon-text">
+          <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/building.svg" alt="Icon 1" class="img-fluid" />
+          <p>Sống Độc Lập</p>
         </div>
-        <div class="row mt-4 g-3">
-          <div class="col-6 col-md-4 col-lg-2">
-            <div
-              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
-              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/building.svg" alt="Icon 1" class="img-fluid" />
-              <p>Sống Độc Lập</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div
-              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
-              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/hands.svg" alt="Icon 2" class="img-fluid" />
-              <p>Hỗ Trợ Tinh Thần</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div
-              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text icon-text-active">
-              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/medicine.svg" alt="Icon 3" />
-              <p>Trợ Giúp Y Tế Khẩn Cấp</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div
-              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
-              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/doctor.svg" alt="Icon 4" />
-              <p>Nhân Viên Điều Dưỡng 24/7</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div
-              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
-              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/bed.svg" alt="Icon 5" />
-              <p>Phòng Tiện Nghi</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div
-              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
-              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/cloudy.svg" alt="Icon 6" />
-              <p>Không Khí Thư Giãn</p>
-            </div>
-          </div>
+        <div class="swiper-slide icon-text">
+          <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/hands.svg" alt="Icon 2" class="img-fluid" />
+          <p>Hỗ Trợ Tinh Thần</p>
+        </div>
+        <div class="swiper-slide icon-text icon-text-active">
+          <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/medicine.svg" alt="Icon 3" />
+          <p>Trợ Giúp Y Tế Khẩn Cấp</p>
+        </div>
+        <div class="swiper-slide icon-text">
+          <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/doctor.svg" alt="Icon 4" />
+          <p>Nhân Viên Điều Dưỡng 24/7</p>
+        </div>
+        <div class="swiper-slide icon-text">
+          <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/bed.svg" alt="Icon 5" />
+          <p>Phòng Tiện Nghi</p>
+        </div>
+        <div class="swiper-slide icon-text">
+          <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/cloudy.svg" alt="Icon 6" />
+          <p>Không Khí Thư Giãn</p>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+        
     <!-- About Discovery Age Care -->
     <section class="about">
       <div class="container-cover d-flex">
@@ -1189,10 +1176,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
   <script src="./assets/js/navbar.js"></script>
   <script src="./assets/js/text-animation.js"></script>
   <script src="./assets/js/accordion.js"></script>
   <script src="./assets/js/scroll.js"></script>
+  <script src="./assets/js/thien-duong-infinite-slide.js"></script>
 
 </body>
 

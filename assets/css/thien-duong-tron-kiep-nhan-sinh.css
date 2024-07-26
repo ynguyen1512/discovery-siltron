@@ -1,3 +1,7 @@
+.header-text {
+  padding-left: 70px;
+  padding-top: 40px;
+}
 
 .header-text h5 {
   font-family: "Be Vietnam Pro", sans-serif;
@@ -17,27 +21,37 @@
   margin-bottom: 20px; /* Added margin-bottom */
 }
 
-.icon-text {
-  transition: background-color 0.3s, color 0.3s;
-  padding: 15px;
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  padding: 24px 18px;
   border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
 }
 
-.icon-text img {
+.swiper-slide img {
   width: 50px;
   height: 50px;
   margin-right: 10px; /* Added margin-bottom for spacing */
+
   margin-bottom: 10px; /* Added margin-bottom for spacing */
   fill: var(--pri-dac); /* Set the default color */
 }
 
-.icon-text:hover {
+.swiper-slide:hover {
   background-color: var(--pri-dac);
   color: var(--white-color);
 }
 
-.icon-text:hover img {
+.swiper-slide:hover img {
   filter: brightness(0) invert(1); /* Change to white color on hover */
 }
 
@@ -46,10 +60,30 @@
   color: var(--white-color);
 }
 
-.icon-text p {
+.swiper-slide p {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 17.71px;
   margin: 0; /* Remove default margin */
+}
+
+@media (max-width: 390px) {
+  .swiper-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns in mobile */
+
+    gap: 20px; /* Adjust gap between items */
+  }
+
+  .swiper-wrapper {
+    display: contents !important; /* Disable Swiper flex behavior */
+  }
+
+  .swiper-slide {
+    flex: 1 1 45%; /* Adjust width for mobile */
+    width: 100%; /* Ensure it doesn't exceed 100% width in mobile */
+    flex-direction: column !important; /* Change to column direction */
+    padding: auto;
+  }
 }
