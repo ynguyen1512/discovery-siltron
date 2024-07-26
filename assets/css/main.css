@@ -7,4 +7,63 @@
 @import "./out-center.css";
 @import "./about.css";
 
+@keyframes smooth-appear {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+.float-buttons {
+  position: fixed;
+  /* top: 50%; */
+  /* bottom: 0; */
+  right: 0;
+  width: 70px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  border: none;
+  animation: smooth-appear 2s ease forwards;
+}
 
+.float-buttons .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px 0;
+}
+
+.icon img[src*="instagram.svg"] {
+  fill: url(#instagramGradient);
+}
+
+.instagram-button {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.instagram-button:hover {
+  background: linear-gradient(
+    45deg,
+    #bc1888,
+    #cc2366,
+    #dc2743,
+    #e6683c,
+    #f09433
+  );
+}
