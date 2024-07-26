@@ -7,40 +7,14 @@
 
 .custom-navbar {
   background-color: white;
-  width: 1300px;
+  width: 100%; /* Changed to 100% to be responsive */
   height: 103px;
-  margin: 0 auto; /* Center the navbar */
   padding: 30px 0;
+  position: relative; /* Initial position */
+  margin: 0 auto; /* Center the navbar */
+  z-index: 1050;
 }
 
-/* Separate media queries for each breakpoint */
-@media (max-width: 1200px) {
-  .custom-navbar {
-    background-color: #419636 !important;
-    width: 100%;
-  }
-}
-
-@media (max-width: 992px) {
-  .custom-navbar {
-    background-color: #419636 !important;
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .custom-navbar {
-    background-color: #419636 !important;
-    width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  .custom-navbar {
-    background-color: #419636 !important;
-    width: 100%;
-  }
-}
 .custom-gap-class > * {
   margin-right: 3rem; /* equivalent to gap-5 in Bootstrap 5 */
 }
@@ -48,6 +22,7 @@
 .custom-gap-class > *:last-child {
   margin-right: 0;
 }
+
 .custom-navbar .navbar-brand {
   display: flex;
   align-items: center;
@@ -97,4 +72,33 @@
   right: 20px;
   font-size: 2rem;
   cursor: pointer;
+}
+
+/* Separate media queries for each breakpoint */
+
+@media (max-width: 992px) {
+  .custom-navbar {
+    bottom: 0 !important;
+    position: fixed !important;
+    background-color: #000088 !important;
+    height: 10% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    bottom: 0 !important;
+    position: fixed !important;
+    background-color: #000088 !important;
+    height: 10% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-navbar {
+    bottom: 0 !important;
+    position: fixed !important;
+    background-color: #000088 !important;
+    height: 10% !important;
+  }
 }
