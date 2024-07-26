@@ -11,6 +11,11 @@
   font-size: 14px;
 }
 
+.blog {
+  display: flex;
+  justify-content: center;
+}
+
 .blog .subtitle {
   text-align: center;
 

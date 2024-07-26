@@ -1,6 +1,7 @@
 #container {
   background-color: #f3fbf2 !important;
   font-family: "Be Vietnam Pro" !important;
+  max-width: 1440px !important;
 }
 
 .about-text-h3 {
@@ -25,6 +26,8 @@
 
 .about-content {
   margin-top: 70px;
+  display: flex !important;
+  justify-content: center !important
 }
 .our-center .subtitle {
   text-align: center;
@@ -47,14 +50,12 @@
 .main-image img {
   /* image 1 */
 
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  width: 640px;
+  height: 500px;
+  gap: 0px;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 0px;
+  
 }
 
 .about-list-item {
