@@ -51,6 +51,10 @@
     color: black; /* Customize as needed */
     margin: 0 10px; /* Adjust spacing between links */
   }
+
+  .custom-navbar .navbar-nav .nav-item a:hover {
+    color: var(--pri-dac) !important;
+  }
   
   .navbar-nav {
     gap: 5px;
