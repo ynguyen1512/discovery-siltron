@@ -30,6 +30,7 @@
 }
 .blog .cover {
   padding: 70px;
+  max-width: 1440px;
 }
 .blog .recent-posts {
   display: grid;

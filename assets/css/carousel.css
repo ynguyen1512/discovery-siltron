@@ -261,6 +261,16 @@
   font-size: 30px;
   margin-bottom: 10px;
 }
+.che-do-an-uong .cover {
+  display: flex;
+  justify-content: center;
+}
+.che-do-an-uong .schedule-row .col-left {
+  margin-right: 35px
+}
+.che-do-an-uong .schedule-row .col-right {
+  margin-left: 35px
+}
 .che-do-an-uong .carousel-indicators {
   position: absolute;
   margin-top: 20px;
