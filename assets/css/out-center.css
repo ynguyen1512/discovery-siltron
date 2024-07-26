@@ -138,9 +138,6 @@
   .custom-container {
     width: auto;
   }
-
-
-
   #aboutCarousel {
     display: block;
   }
@@ -151,8 +148,15 @@
   }
 
   .carousel-item {
-    margin-top: 40px;
     text-align: center;
+
+  }
+  .carousel-item img {
+    height: 450px;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    font-size: 24px;
   }
 
   .carousel-item .text-container {
@@ -168,6 +172,9 @@
   }
   .text-container p {
     max-width: 100%;
+  }
+  .social-icons {
+    display: none;
   }
 }
 /* 
