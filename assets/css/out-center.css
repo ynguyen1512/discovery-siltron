@@ -1,0 +1,154 @@
+#container {
+  background-color: #f3fbf2 !important;
+}
+
+.about-text-h3 {
+  font-style: italic;
+  color: gray;
+}
+
+.about-text-h1 {
+  font-size: 40px;
+  color: #534d44;
+}
+
+.custom-container {
+  width: 1300px;
+  height: 500px;
+}
+
+.main-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-content {
+  padding-top: 100px;
+}
+
+.main-image img {
+  width: 640px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.about-list-item {
+  align-items: center;
+  display: grid;
+  grid-row: 33% 67%;
+  border: none;
+}
+
+.about-list-item .about-small-image {
+  width: 180px;
+}
+
+.about-small-image img {
+  border-radius: 10px;
+}
+
+.item-start {
+  padding-bottom: 30px;
+}
+
+.item-end {
+  padding-top: 30px;
+}
+
+.item-middle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.container-list-group {
+  margin-left: 35px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  margin-top: 20px;
+  text-align: center;
+  bottom: -30px !important;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid var(--pri-dac);
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .custom-container {
+    width: auto;
+  }
+
+  .about-small-image {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+
+  #aboutCarousel {
+    display: block;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-item {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .carousel-item .text-container {
+    text-align: center;
+  }
+
+  .carousel-indicators li {
+    background-color: #419636;
+  }
+}
+
+@media (min-width: 769px) {
+  .custom-container {
+    width: auto;
+  }
+
+  .d-lg-none {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .custom-container {
+    width: 100%;
+  }
+
+  .carousel-inner {
+    display: flex;
+  }
+
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
