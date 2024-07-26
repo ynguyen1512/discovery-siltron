@@ -20,6 +20,7 @@
   transition: background-color 0.3s, color 0.3s;
   padding: 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .icon-text img {
@@ -36,7 +37,7 @@
 }
 
 .icon-text:hover img {
-  filter: invert(1) sepia(1) saturate(5) hue-rotate(90deg);
+  filter: brightness(0) invert(1); /* Change to white color on hover */
 }
 
 .icon-text-active {

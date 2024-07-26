@@ -1,6 +1,7 @@
 .footer {
   background-color: #f3fbf2;
   padding: 40px 20px 40px 20px;
+  display: flex;
 }
 .footer h5 {
   font-weight: bold;
@@ -12,11 +13,17 @@
 .footer a:hover {
   text-decoration: underline;
 }
-.footer .contact-info li{
+.footer .contact-info li {
   min-width: 100px;
   font-size: 14px;
 }
 .footer .logo {
   font-size: 1.2rem;
   font-weight: bold;
+}
+.footer .logo img {
+  width: 217px;
+  height: 58px;
+  gap: 0px;
+  opacity: 0px;
 }

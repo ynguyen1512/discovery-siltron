@@ -1,5 +1,6 @@
 #container {
   background-color: #f3fbf2 !important;
+  font-family: "Be Vietnam Pro" !important;
 }
 
 .about-text-h3 {
@@ -44,9 +45,16 @@
 }
 
 .main-image img {
-  width: 640px;
+  /* image 1 */
+
+  width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .about-list-item {
@@ -56,12 +64,17 @@
   border: none;
 }
 
-.about-list-item .about-small-image {
+/* .about-list-item .about-small-image {
   width: 180px;
-}
+  height: 120px;
+} */
 
 .about-small-image img {
-  border-radius: 10px;
+  width: 180px;
+  height: 120px;
+  border-radius: 15px;
+
+  object-fit: fill;
 }
 
 .item-start {
@@ -80,21 +93,37 @@
 }
 
 .text-container {
-  font-size: 14px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 15px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: 383px;
+  height: 97px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .text-container p {
-  max-width: 380px;
+  width: 383px;
+  height: 64px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* Sce DAC */
+  color: #534d44;
 }
 
 .container-list-group {
   margin-left: 35px;
 }
 .our-center {
-  background: var( --c50-dac)
+  background: var(--c50-dac);
 }
 
 .our-center .carousel-indicators {
@@ -149,7 +178,6 @@
 
   .carousel-item {
     text-align: center;
-
   }
   .carousel-item img {
     height: 450px;
