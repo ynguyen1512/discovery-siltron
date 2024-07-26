@@ -101,32 +101,45 @@
   position: absolute;
   margin-top: 20px;
   text-align: center;
-  bottom: -30px !important;
+  bottom: -40px !important;
 }
-
+.our-center .screen-mobile {
+  display: none;
+}
 .our-center .carousel-indicators li {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 5px;
-  text-indent: -999px;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 2px solid var(--pri-dac);
-  background-color: transparent;
+  background-image: url("../svg/diamond.svg");
+  background-size: cover;
+  background-position: center;
+  width: 12px !important;
+  height: 9px !important;
+  background-color: transparent !important;
+  opacity: 0.1 !important;
 }
-
+.our-center .carousel-indicators li.active {
+  opacity: 1 !important;
+}
 @media (max-width: 768px) {
+  .our-center .subtitle {
+    font-size: 12px;
+  }
+  .about-content {
+    margin-top: 25px;
+  }
+  .our-center .title {
+    font-size: 20px;
+  }
+  .main-section {
+    padding: 25px;
+  }
+  .our-center .screen-mobile {
+    display: block;
+    padding: 50px;
+  }
   .custom-container {
     width: auto;
   }
 
-  .about-small-image {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-  }
+
 
   #aboutCarousel {
     display: block;
@@ -149,9 +162,17 @@
   .carousel-indicators li {
     background-color: #419636;
   }
+  .text-container {
+    padding: 0;
+    margin: 0;
+  }
+  .text-container p {
+    max-width: 100%;
+  }
 }
-
+/* 
 @media (min-width: 769px) {
+ 
   .custom-container {
     width: auto;
   }
@@ -174,4 +195,4 @@
     flex: 0 0 auto;
     width: 100%;
   }
-}
+} */
