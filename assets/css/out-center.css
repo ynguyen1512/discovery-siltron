@@ -1,6 +1,6 @@
 #container {
-  background-color: #f3fbf2 !important;
-  font-family: "Be Vietnam Pro" !important;
+  display: flex;
+  justify-content: center;
   max-width: 1440px !important;
 }
 
