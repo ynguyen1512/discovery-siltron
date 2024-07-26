@@ -29,7 +29,7 @@
   color: var(--sce-dac);
 }
 .blog .cover {
-  padding: 70px 0;
+  padding: 70px;
 }
 .blog .recent-posts {
   display: grid;
@@ -54,6 +54,8 @@
   width: 15px;
   height: 15px;
   object-fit: contain;
+  margin: 0;
+  padding: 0;
 }
 .blog .post {
   background-color: #ffffff;
@@ -153,6 +155,9 @@
   display: none;
 }
 @media (max-width: 770px) {
+  .blog .cover {
+    padding: 25px;
+  }
   .blog .screen-pc {
     display: none;
   }
