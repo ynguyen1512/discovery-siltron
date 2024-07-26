@@ -245,4 +245,11 @@
         margin-bottom: 20px;
         text-align: left;
     }
+    .card-body {
+        padding: 30px 25px 30px 25px;
+    }
+    .control {
+        display: flex;
+        justify-content: center;
+    }
 }
