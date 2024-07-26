@@ -23,6 +23,17 @@
   color: white;
   text-align: center;
   width: 100%;
+  animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+  from {
+      transform: translateX(-50%) translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 1;
+  }
 }
 
 .carousel-item img {

@@ -95,7 +95,7 @@
 .text-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-center;
   padding: 0px;
   gap: 15px;
 
