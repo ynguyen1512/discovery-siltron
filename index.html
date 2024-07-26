@@ -116,7 +116,7 @@
       <a class="nav-link" href="#">Tin Tức - Sự Kiện</a>
       <a class="nav-link" href="#">Liên Hệ</a>
     </div>
-    <div>
+    <>
       <!-- Carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -418,7 +418,8 @@
       </section>
       <!-- Che do an uong -->
       <!-- Schedule section for desktop -->
-      <section>
+      <section class="che-do-an-uong">
+
         <div class="schedule-section d-none d-md-block">
           <p class="subtitle">Chế độ ăn uống</p>
           <h2>
@@ -533,8 +534,24 @@
         </div>
 
         <!-- Schedule section for mobile -->
-        <div id="carouselExampleControls" class="carousel slide mobile-slider d-block d-md-none mt-4 p-2"
+
+        <div id="carouselExampleControls" class="carousel slide mobile-slider d-block d-md-none card-section"
           data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleControls"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li
+              data-target="#carouselExampleControls"
+              data-slide-to="1"
+            ></li>
+            <li
+              data-target="#carouselExampleControls"
+              data-slide-to="2"
+            ></li>
+          </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
@@ -632,6 +649,54 @@
                 </div>
               </div>
             </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6 mb-3">
+                  <div class="card card-custom">
+                    <div class="card-body">
+                      <div class="icon">
+                        <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
+                      </div>
+                      <h5 class="card-title">05:00 - 06:30</h5>
+                      <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card card-custom card-green">
+                    <div class="card-body">
+                      <div class="icon">
+                        <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
+                      </div>
+                      <h5 class="card-title">06:30 - 07:30</h5>
+                      <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card card-custom">
+                    <div class="card-body">
+                      <div class="icon">
+                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
+                      </div>
+                      <h5 class="card-title">07:30 - 08:15</h5>
+                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mb-3">
+                  <div class="card card-custom">
+                    <div class="card-body">
+                      <div class="icon">
+                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
+                      </div>
+                      <h5 class="card-title">07:30 - 08:15</h5>
+                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- <button class="carousel-control-prev carousel-mobile-prev" type="button"
         data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -644,6 +709,7 @@
         <span class="visually-hidden">Next</span>
     </button> -->
         </div>
+
       </section>
       <!-- Blog -->
       <section class="blog">
