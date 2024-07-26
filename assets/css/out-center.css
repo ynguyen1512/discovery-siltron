@@ -18,13 +18,29 @@
 }
 
 .main-section {
-  background-color: #fff;
-  padding: 20px;
+  padding: 70px;
   border-radius: 10px;
 }
 
 .about-content {
-  padding-top: 100px;
+  margin-top: 70px;
+}
+.our-center .subtitle {
+  text-align: center;
+
+  font-size: 14px;
+  font-style: italic;
+  line-height: 17.71px;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  color: var(--sce-dac);
+  margin-bottom: 10px;
+}
+.our-center .title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50.6px;
+  color: var(--sce-dac);
 }
 
 .main-image img {
@@ -64,24 +80,31 @@
 }
 
 .text-container {
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 15px;
 }
+.text-container p {
+  max-width: 380px;
+}
 
 .container-list-group {
   margin-left: 35px;
 }
+.our-center {
+  background: var( --c50-dac)
+}
 
-.carousel-indicators {
+.our-center .carousel-indicators {
   position: absolute;
   margin-top: 20px;
   text-align: center;
   bottom: -30px !important;
 }
 
-.carousel-indicators li {
+.our-center .carousel-indicators li {
   display: inline-block;
   width: 12px;
   height: 12px;
