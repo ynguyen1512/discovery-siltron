@@ -134,7 +134,7 @@
   padding: 20px;
   background-color: var(--c50-dac);
 }
-.carousel-indicators li {
+.blog .carousel-indicators li {
   background-image: url("../svg/diamond.svg");
   background-size: cover;
   background-position: center;
@@ -143,7 +143,7 @@
   background-color: transparent !important;
   opacity: 0.1 !important;
 }
-.carousel-indicators li.active {
+.blog .carousel-indicators li.active {
   opacity: 1 !important;
 }
 .blog .screen-pc {
