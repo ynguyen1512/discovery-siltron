@@ -23,6 +23,23 @@
   color: white;
   text-align: center;
   width: 100%;
+  animation: slideIn 2s forwards;
+}
+@keyframes slideIn {
+  from {
+      transform: translateX(-50%) translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 1;
+  }
+}
+
+@keyframes icon-appears {
+  to {
+    bottom: 10px;
+  }
 }
 
 .carousel-item img {
@@ -36,7 +53,6 @@
 
 .social-icons {
   position: absolute;
-  bottom: 10px;
   right: 5%;
   display: flex;
   align-items: center;
@@ -47,6 +63,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  animation: icon-appears 2s ease forwards;
 }
 
 .social-icons a img {
@@ -83,6 +100,9 @@
 }
 
 /* Schedule */
+/* .d-flex {
+  gap: 100px;
+} */
 .schedule-section {
   padding: 50px 70px;
   background-color: white;
@@ -140,14 +160,10 @@
 .schedule-section .schedule-row {
   display: flex;
   justify-content: space-between;
-  display: flex;
-  justify-content: space-between;
+  gap: 100px
 }
 
 .schedule-section .schedule-row .col-right {
-  height: 480px;
-  overflow-y: scroll;
-  padding-right: 30px;
   height: 480px;
   overflow-y: scroll;
   padding-right: 30px;
@@ -163,6 +179,18 @@
   border-radius: 15px;
   padding: 20px 30px 20px 30px;
   border: 1px solid #419636;
+}
+
+.schedule-item:hover {
+  background-color: #419636;
+  color: #fff !important;
+  padding: 20px 30px 20px 30px;
+  border: none;
+  background-color: #419636;
+  color: #fff !important;
+  padding: 20px 30px 20px 30px;
+  border: none;
+  cursor: pointer;
 }
 
 .schedule-item.active {
@@ -231,6 +259,12 @@
   border-radius: 15px !important;
   text-align: center !important;
   height: 100% !important;
+  cursor: pointer !important;
+}
+
+.card-custom:hover {
+  background-color: #28a745 !important;
+  color: white !important;
 }
 
 .card-green {
@@ -243,6 +277,16 @@
   margin-bottom: 10px;
   font-size: 30px;
   margin-bottom: 10px;
+}
+.che-do-an-uong .cover {
+  display: flex;
+  justify-content: center;
+}
+.che-do-an-uong .schedule-row .col-left {
+  margin-right: 35px
+}
+.che-do-an-uong .schedule-row .col-right {
+  margin-left: 35px
 }
 .che-do-an-uong .carousel-indicators {
   position: absolute;
@@ -290,14 +334,7 @@
   .vertical-line {
     height: 50px;
   }
-  .vertical-line {
-    height: 50px;
-  }
 
-  .schedule-section {
-    padding: 20px 0;
-    height: auto;
-  }
   .schedule-section {
     padding: 20px 0;
     height: auto;
@@ -307,14 +344,7 @@
     margin-top: 30px;
     font-size: 12px;
   }
-  .schedule-section p {
-    margin-top: 30px;
-    font-size: 12px;
-  }
 
-  .schedule-section h2 {
-    font-size: 24px;
-  }
   .schedule-section h2 {
     font-size: 24px;
   }
@@ -324,29 +354,14 @@
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
-  }
-  .schedule-section .schedule-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    object-fit: fill;
   }
 
   .schedule-section .schedule-row {
     flex-direction: column;
     align-items: center;
   }
-  .schedule-section .schedule-row {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .schedule-section .schedule-row .col-right {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-    overflow-y: visible;
-  }
   .schedule-section .schedule-row .col-right {
     margin-left: 0;
     width: 100%;
@@ -360,17 +375,7 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  .schedule-item {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .schedule-item-content h3,
-  .schedule-item-content p {
-    font-size: 12px;
-  }
   .schedule-item-content h3,
   .schedule-item-content p {
     font-size: 12px;
@@ -381,24 +386,11 @@
     margin-right: 0;
     margin-bottom: 10px;
   }
-  .schedule-item-icon {
-    font-size: 1.5rem;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
 
   .card-title {
     font-weight: 600;
   }
-  .card-title {
-    font-weight: 600;
-  }
 
-  .card-title,
-  .card-text {
-    font-size: 12px;
-    text-align: left;
-  }
   .card-title,
   .card-text {
     font-size: 12px;

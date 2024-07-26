@@ -45,27 +45,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item fw-bold d-flex align-items-center justify-content-start">
-              <a class="nav-link" href="#">Trang chủ</a>
+              <a class="nav-link" href="#"><strong>Trang chủ</strong></a>
               <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
             </li>
             <li class="nav-item fw-bold d-flex align-items-center">
-              <a class="nav-link" href="#">Giới Thiệu</a>
+              <a class="nav-link" href="#"><strong>Giới thiệu</strong></a>
               <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
             </li>
             <li class="nav-item fw-bold d-flex align-items-center">
-              <a class="nav-link" href="#">Ban Lãnh Đạo</a>
+              <a class="nav-link" href="#"><strong>Ban Lãnh Đạo</strong></a>
               <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
             </li>
             <li class="nav-item fw-bold d-flex align-items-center">
-              <a class="nav-link" href="#">Sản Phẩm - Dịch Vụ</a>
+              <a class="nav-link" href="#"><strong>Sản Phẩm - Dịch Vụ</strong></a>
               <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
             </li>
             <li class="nav-item fw-bold d-flex align-items-center">
-              <a class="nav-link" href="#">Tin Tức - Sự Kiện</a>
+              <a class="nav-link" href="#"><strong>Tin Tức - Sự Kiện</strong></a>
               <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
             </li>
             <li class="nav-item fw-bold d-flex align-items-center">
-              <a class="nav-link" href="#">Liên Hệ</a>
+              <a class="nav-link" href="#"><strong>Liên Hệ</strong></a>
               <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" />
             </li>
           </ul>
@@ -73,7 +73,7 @@
             <img src="./assets/images/icon/phone.png" alt="Logo" height="35" class="flex-shrink-0"
               style="margin-right: 10px;">
             <div class="">
-              <div class="fw-bold">097380808</div>
+              <strong>097380808</strong>
               <div>Mo - Su: 07:00 - 21:00</div>
             </div>
           </div>
@@ -116,240 +116,343 @@
       <a class="nav-link" href="#">Tin Tức - Sự Kiện</a>
       <a class="nav-link" href="#">Liên Hệ</a>
     </div>
-      <!-- Carousel -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        </ol>
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/images/hands.jpeg" class="d-block w-100" alt="First slide">
-            <div class="carousel-caption">
-              <div>KHÔNG GIAN SỐNG</div> NGƯỜI CAO TUỔI
-            </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/hands.jpeg" class="d-block w-100" alt="First slide">
+          <div class="carousel-caption">
+            <div>KHÔNG GIAN SỐNG</div> NGƯỜI CAO TUỔI
           </div>
-          <!-- <div class="carousel-item">
-            <img src="./assets/images/kiss.jpeg" class="d-block w-100" alt="Second slide">
-            <div class="carousel-caption">
-              YOUR HAPPY - OUR PLAN
-            </div>
-          </div> -->
         </div>
-        <div class="social-icons">
-          <div class="icon">
-            <a href="#"><img src="./assets/images/facebook.png" /></a>
-            <a href="#"><img src="./assets/images/instagram.png" /></a>
-            <a href="#"><img src="./assets/images/twitter.png" /></a>
-            <a href="#"><img src="./assets/images/youtube.png" /></a>
+        <div class="carousel-item">
+          <img src="./assets/images/kiss.jpeg" class="d-block w-100" alt="Second slide">
+          <div class="carousel-caption">
+            YOUR HAPPY - OUR PLAN
           </div>
-          <div class="vertical-line"></div>
         </div>
       </div>
-
-      <!-- Thien duong tron kiep nhan sinh -->
-      <section class="py-5" id="thien-duong-tron-kiep-nhan-sinh">
-        <div class="container">
-          <div class="header-text">
-            <h5>Discovery Age Care</h5>
-            <h2>Thiên đường trọn kiếp nhân sinh</h2>
+      <div class="social-icons" id="float-icons">
+        <div class="icon">
+          <a href="#"><img src="./assets/images/facebook.png" /></a>
+          <a href="#"><img src="./assets/images/instagram.png" /></a>
+          <a href="#"><img src="./assets/images/twitter.png" /></a>
+          <a href="#"><img src="./assets/images/youtube.png" /></a>
+        </div>
+        <div class="vertical-line"></div>
+      </div>
+    </div>
+    <div class="social-icons float-buttons" id="float-buttons">
+      <div class="icon">
+        <button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+          </svg></button>
+        <button type="button" class="btn instagram-button"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+          </svg></button>
+        <button class="btn btn-info"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+            class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path
+              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+          </svg></button>
+        <button class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+            class="bi bi-youtube" viewBox="0 0 16 16">
+            <path
+              d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+          </svg></a>
+      </div>
+    </div>
+    <!-- Thien duong tron kiep nhan sinh -->
+    <section class="py-5" id="thien-duong-tron-kiep-nhan-sinh">
+      <div class="container">
+        <div class="header-text">
+          <h5>Discovery Age Care</h5>
+          <h2>Thiên đường trọn kiếp nhân sinh</h2>
+        </div>
+        <div class="row mt-4 g-3">
+          <div class="col-6 col-md-4 col-lg-2">
+            <div
+              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
+              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/building.svg" alt="Icon 1" class="img-fluid" />
+              <p>Sống Độc Lập</p>
+            </div>
           </div>
-          <div class="row mt-4 g-3">
-            <div class="col-6 col-md-4 col-lg-2">
-              <div
-                class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-between align-items-center icon-text">
-                <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/building.svg" alt="Icon 1"
-                  class="img-fluid" />
-                <p>Sống Độc Lập</p>
-              </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div
+              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
+              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/hands.svg" alt="Icon 2" class="img-fluid" />
+              <p>Hỗ Trợ Tinh Thần</p>
             </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div
-                class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-between align-items-center icon-text">
-                <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/hands.svg" alt="Icon 2" class="img-fluid" />
-                <p>Hỗ Trợ Tinh Thần</p>
-              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div
+              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text icon-text-active">
+              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/medicine.svg" alt="Icon 3" />
+              <p>Trợ Giúp Y Tế Khẩn Cấp</p>
             </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div
-                class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-between align-items-center icon-text icon-text-active">
-                <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/medicine.svg" alt="Icon 3" />
-                <p>Trợ Giúp Y Tế Khẩn Cấp</p>
-              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div
+              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
+              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/doctor.svg" alt="Icon 4" />
+              <p>Nhân Viên Điều Dưỡng 24/7</p>
             </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div
-                class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-between align-items-center icon-text">
-                <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/doctor.svg" alt="Icon 4" />
-                <p>Nhân Viên Điều Dưỡng 24/7</p>
-              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div
+              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
+              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/bed.svg" alt="Icon 5" />
+              <p>Phòng Tiện Nghi</p>
             </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div
-                class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-between align-items-center icon-text">
-                <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/bed.svg" alt="Icon 5" />
-                <p>Phòng Tiện Nghi</p>
-              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div
+              class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-start align-items-center icon-text">
+              <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/cloudy.svg" alt="Icon 6" />
+              <p>Không Khí Thư Giãn</p>
             </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div
-                class="d-flex flex-row flex-md-column flex-sm-column flex-lg-row flex-xl-row justify-content-between align-items-center icon-text">
-                <img src="./assets/images/thien-duong-tron-kiep-nhan-sinh/cloudy.svg" alt="Icon 6" />
-                <p>Không Khí Thư Giãn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Discovery Age Care -->
+    <section class="about">
+      <div class="container-cover d-flex">
+        <div class="cover">
+          <div class="header">
+            <div class="be-vietnam-pro-thin subtitle">
+              về Discovery Age Care
+            </div>
+            <div class="be-vietnam-pro-bold title">
+              Chuỗi Không Gian Sống <br />
+              Người Cao Tuổi
+            </div>
+          </div>
+          <div class="content">
+            <div class="image-section">
+              <img src="./assets/images/about.png" alt="Discovery Age Care" />
+            </div>
+            <div class="text-section">
+              <div class="accordion-content-icon"></div>
+              <p class="be-vietnam-pro-normal">
+                Discovery Age Care là một doanh nghiệp thành viên trực thuộc hệ
+                sinh thái của Tập đoàn Discovery với vai trò là đơn vị tiên
+                phong trong chuỗi Không gian sống người cao tuổi sẽ cung cấp tất
+                cả các dịch vụ:
+              </p>
+              <div class="accordion">
+                <div class="accordion-item">
+                  <button class="accordion-button">
+                    <div class="accordion-icon">
+                      <img src="./assets/svg/minus.svg" alt="accordion-icon" />
+                      <img src="./assets/svg/plug.svg" alt="accordion-icon" />
+                    </div>
+                    <div class="be-vietnam-pro-normal">Dịch vụ chăm sóc</div>
+                  </button>
+                  <div class="accordion-content">
+                    <div class="accordion-content-icon"></div>
+                    <p class="be-vietnam-pro-thin">
+                      Phục hồi chức năng nội trú - Phục hồi chức năng ngoại trú.
+                      Đào tạo điều dưỡng viên - Giao lưu người cao tuổi giữa các
+                      nước trên thế giới.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-button">
+                    <div class="accordion-icon">
+                      <img src="./assets/svg/minus.svg" alt="accordion-icon" />
+                      <img src="./assets/svg/plug.svg" alt="accordion-icon" />
+                    </div>
+                    <div class="be-vietnam-pro-normal">Phục hồi chức năng</div>
+                  </button>
+                  <div class="accordion-content">
+                    <div class="accordion-content-icon"></div>
+                    <p class="be-vietnam-pro-thin">
+                      Chăm sóc người cao tuổi dài ngày - Chăm sóc người cao tuổi
+                      tại nhà - Chăm sóc người cao tuổi ban ngày - Chăm sóc
+                      người cao tuổi ngắn hạn - Chăm sóc người bệnh.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-button">
+                    <div class="accordion-icon">
+                      <img src="./assets/svg/minus.svg" alt="accordion-icon" />
+                      <img src="./assets/svg/plug.svg" alt="accordion-icon" />
+                    </div>
+                    <div class="be-vietnam-pro-normal">
+                      Dịch vụ đào tạo giao lưu và giải trí
+                    </div>
+                  </button>
+                  <div class="accordion-content">
+                    <div class="accordion-content-icon"></div>
+
+                    <p class="be-vietnam-pro-thin">Nội dung của mục này</p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-button">
+                    <div class="accordion-icon">
+                      <img src="./assets/svg/minus.svg" alt="accordion-icon" />
+                      <img src="./assets/svg/plug.svg" alt="accordion-icon" />
+                    </div>
+                    <div class="be-vietnam-pro-normal">
+                      Ứng dụng công nghệ 4.0
+                    </div>
+                  </button>
+                  <div class="accordion-content">
+                    <div class="accordion-content-icon"></div>
+                    <p class="be-vietnam-pro-thin">Nội dung của mục này</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- About Discovery Age Care -->
+      </div>
+    </section>
+    <!-- At our center  -->
+    <section class="our-center">
+      <div id="container">
 
-      <!-- At our center  -->
-      <section class="our-center">
-        <div id="container">
-          <div>
-            <div class="main-section">
-              <div class="be-vietnam-pro-thin subtitle">Về Discovery Age Care</div>
-              <div class="be-vietnam-pro-bold title">Khu Nghỉ Dưỡng</div>
+        <div class="main-section">
+          <div class="be-vietnam-pro-thin subtitle">Về Discovery Age Care</div>
+          <div class="be-vietnam-pro-bold title">Khu Nghỉ Dưỡng</div>
 
-              <div class="about-content row">
-                <div class="col main-image">
-                  <img src="assets/images/out-center.css/left-banner.png" class="img-fluid" alt="Main Resort Image" />
-                </div>
+          <div class="about-content row">
+            <div class="col main-image">
+              <img src="assets/images/out-center.css/left-banner.png" class="img-fluid" alt="Main Resort Image" />
+            </div>
 
-                <div class="col container-list-group d-none d-lg-block">
-                  <div class="list-group">
-                    <div class="about-list-item item-start">
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="about-small-image">
-                            <img src="assets/images/out-center.css/right-banner-1.png" class="img-fluid"
-                              alt="Resort 1" />
-                          </div>
-                        </div>
-                        <div class="col-8">
-                          <div class="text-container">
-                            <div class="mt-2 be-vietnam-pro-bold">Cho thuê nhà nghỉ dưỡng 1 tầng</div>
-                            <p class="mt-4 be-vietnam-pro-thin">
-                              Chăm sóc người cao tuổi được cá nhân hóa với những
-                              tiện nghi được trân trọng nhất. Chăm sóc người cao
-                              tuổi đặc biệt cho mọi giai đoạn ở đâu.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+            <div class="col container-list-group d-none d-lg-block">
+              <div class="list-group">
+                <div class="about-list-item item-start">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/images/out-center.css/right-banner-1.png" class="img-fluid" alt="Resort 1" />
                     </div>
-
-                    <div class="about-list-item item-middle">
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="about-small-image">
-                            <img src="assets/images/out-center.css/right-banner-2.png" class="img-fluid"
-                              alt="Resort 1" />
-                          </div>
-                        </div>
-                        <div class="col-8">
-                          <div class="text-container">
-                            <div class="mt-2 be-vietnam-pro-bold">Cho thuê nhà nghỉ dưỡng 1 tầng</div>
-                            <p class="mt-4 be-vietnam-pro-thin">
-                              Bằng cách thúc đẩy lối sống năng động về tinh thần và
-                              kết nối xã hội, chăm sóc toàn diện góp phần nâng
-                              cao nhận thức.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="about-list-item item-end">
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="about-small-image">
-                            <img src="assets/images/out-center.css/right-banner-3.png" class="img-fluid"
-                              alt="Resort 1" />
-                          </div>
-                        </div>
-                        <div class="col-8">
-                          <div class="text-container">
-                            <div class="mt-2 be-vietnam-pro-bold">Cho thuê nhà nghỉ dưỡng 1 tầng</div>
-                            <p class="mt-4 be-vietnam-pro-thin">
-                              Các chương trình tập thể dục được thiết kế để tăng
-                              cường sức mạnh, tính linh hoạt và khả năng vận động
-                              cũng không thể thiếu trong việc chăm sóc toàn diện.
-                            </p>
-                          </div>
-                        </div>
+                    <div class="col-8">
+                      <div class="text-container">
+                        <div class="mt-2 be-vietnam-pro-bold">Cho thuê nhà nghỉ dưỡng 1 tầng</div>
+                        <p class="mt-4 be-vietnam-pro-thin">
+                          Chăm sóc người cao tuổi được cá nhân hóa với những
+                          tiện nghi được trân trọng nhất. Chăm sóc người cao
+                          tuổi đặc biệt cho mọi giai đoạn ở đâu.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- mobile -->
-                <div class="screen-mobile">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div>
-                          <div>
-                            <div class="about-small-image">
-                              <img src="assets/images/out-center.css/right-banner-1.png" class="img-fluid"
-                                alt="Resort 1" />
-                            </div>
-                          </div>
-                          <div>
-                            <div class="text-container">
-                              <h5 class="mt-2">Cho thuê nhà nghỉ dưỡng 1 tầng</h5>
-                              <p class="mt-4">
-                                Chăm sóc người cao tuổi được cá nhân hóa với những
-                                tiện nghi được trân trọng nhất. Chăm sóc người cao
-                                tuổi đặc biệt cho mọi giai đoạn ở đâu.
-                              </p>
-                            </div>
-                          </div>
+
+                <div class="about-list-item item-middle">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/images/out-center.css/right-banner-2.png" class="img-fluid" alt="Resort 1" />
+                    </div>
+                    <div class="col-8">
+                      <div class="text-container">
+                        <div class="mt-2 be-vietnam-pro-bold">Cho thuê nhà nghỉ dưỡng 1 tầng</div>
+                        <p class="mt-4 be-vietnam-pro-thin">
+                          Bằng cách thúc đẩy lối sống năng động về tinh thần và
+                          kết nối xã hội, chăm sóc toàn diện góp phần nâng
+                          cao nhận thức.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="about-list-item item-end">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="assets/images/out-center.css/right-banner-3.png" class="img-fluid" alt="Resort 1" />
+                    </div>
+                    <div class="col-8">
+                      <div class="text-container">
+                        <div class="mt-2 be-vietnam-pro-bold">Cho thuê nhà nghỉ dưỡng 1 tầng</div>
+                        <p class="mt-4 be-vietnam-pro-thin">
+                          Các chương trình tập thể dục được thiết kế để tăng
+                          cường sức mạnh, tính linh hoạt và khả năng vận động
+                          cũng không thể thiếu trong việc chăm sóc toàn diện.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- mobile -->
+            <div class="screen-mobile">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div>
+                      <div>
+                        <div class="about-small-image">
+                          <img src="assets/images/out-center.css/right-banner-1.png" class="img-fluid" alt="Resort 1" />
                         </div>
                       </div>
-                      <div class="carousel-item">
-                        <div>
-                          <div>
-                            <div class="about-small-image">
-                              <img src="assets/images/out-center.css/right-banner-2.png" class="img-fluid"
-                                alt="Resort 1" />
-                            </div>
-                          </div>
-                          <div>
-                            <div class="text-container">
-                              <h5 class="mt-2">Cho thuê nhà nghỉ dưỡng 1 tầng</h5>
-                              <p class="mt-4">
-                                Chăm sóc người cao tuổi được cá nhân hóa với những
-                                tiện nghi được trân trọng nhất. Chăm sóc người cao
-                                tuổi đặc biệt cho mọi giai đoạn ở đâu.
-                              </p>
-                            </div>
-                          </div>
+                      <div>
+                        <div class="text-container">
+                          <h5 class="mt-2">Cho thuê nhà nghỉ dưỡng 1 tầng</h5>
+                          <p class="mt-4">
+                            Chăm sóc người cao tuổi được cá nhân hóa với những
+                            tiện nghi được trân trọng nhất. Chăm sóc người cao
+                            tuổi đặc biệt cho mọi giai đoạn ở đâu.
+                          </p>
                         </div>
                       </div>
-                      <div class="carousel-item">
-                        <div>
-                          <div>
-                            <div class="about-small-image">
-                              <img src="assets/images/out-center.css/right-banner-3.png" class="img-fluid"
-                                alt="Resort 1" />
-                            </div>
-                          </div>
-                          <div>
-                            <div class="text-container">
-                              <h5 class="mt-2">Cho thuê nhà nghỉ dưỡng 1 tầng</h5>
-                              <p class="mt-4">
-                                Chăm sóc người cao tuổi được cá nhân hóa với những
-                                tiện nghi được trân trọng nhất. Chăm sóc người cao
-                                tuổi đặc biệt cho mọi giai đoạn ở đâu.
-                              </p>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div>
+                      <div>
+                        <div class="about-small-image">
+                          <img src="assets/images/out-center.css/right-banner-2.png" class="img-fluid" alt="Resort 1" />
+                        </div>
+                      </div>
+                      <div>
+                        <div class="text-container">
+                          <h5 class="mt-2">Cho thuê nhà nghỉ dưỡng 1 tầng</h5>
+                          <p class="mt-4">
+                            Chăm sóc người cao tuổi được cá nhân hóa với những
+                            tiện nghi được trân trọng nhất. Chăm sóc người cao
+                            tuổi đặc biệt cho mọi giai đoạn ở đâu.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div>
+                      <div>
+                        <div class="about-small-image">
+                          <img src="assets/images/out-center.css/right-banner-3.png" class="img-fluid" alt="Resort 1" />
+                        </div>
+                      </div>
+                      <div>
+                        <div class="text-container">
+                          <h5 class="mt-2">Cho thuê nhà nghỉ dưỡng 1 tầng</h5>
+                          <p class="mt-4">
+                            Chăm sóc người cao tuổi được cá nhân hóa với những
+                            tiện nghi được trân trọng nhất. Chăm sóc người cao
+                            tuổi đặc biệt cho mọi giai đoạn ở đâu.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -358,67 +461,69 @@
               </div>
             </div>
           </div>
-
-          <!-- Ambulance call -->
-
-          <!-- Che do an uong -->
-
-          <!-- Blog -->
         </div>
-      </section>
-      <!-- Ambulance call -->
-      <section class="ambulance">
-        <div class="container">
-          <div class="cover">
-            <div class="ambulance-left">
-              <div class="ambulance-left-top screen-pc">
-                <div class="be-vietnam-pro-thin subtitle">Về khách hàng</div>
-                <div class="be-vietnam-pro-bold title">
-                  Đối Tượng Khách Hàng
-                </div>
-              </div>
-              <ul class="ambulance-list">
-                <li>
-                  <div class="d-flex ambulance-list-cover">
-                    <div class="ambulance-list-style"></div>
-                    <span>Người cao tuổi hoàn toàn khỏe mạnh, minh mẫn, tự phục
-                      vụ cá nhân.</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex  ambulance-list-cover">
-                    <div class="ambulance-list-style"></div>
-                    <span>Người cao tuổi suy giảm trí nhớ, sức khỏe không ổn định
-                      (yếu), không tự phục vụ cá nhân, phải chăm sóc nội
-                      trú.</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex ambulance-list-cover">
-                    <div class="ambulance-list-style"></div>
 
-                    <span>Người cao tuổi vừa trải qua một thời gian điều trị tại
-                      bệnh viện, có nhu cầu tiếp tục theo dõi.</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="ambulance-right-cover">
-              <div class="ambulance-left-top screen-mobile">
-                <div class="be-vietnam-pro-thin subtitle">Về khách hàng</div>
-                <div class="be-vietnam-pro-bold title">
-                  Đối Tượng Khách Hàng
-                </div>
+
+        <!-- Ambulance call -->
+
+        <!-- Che do an uong -->
+
+        <!-- Blog -->
+      </div>
+    </section>
+    <!-- Ambulance call -->
+    <section class="ambulance">
+      <div class="container">
+        <div class="cover">
+          <div class="ambulance-left">
+            <div class="ambulance-left-top screen-pc">
+              <div class="be-vietnam-pro-thin subtitle">Về khách hàng</div>
+              <div class="be-vietnam-pro-bold title">
+                Đối Tượng Khách Hàng
               </div>
-              <div class="ambulance-right"></div>
             </div>
+            <ul class="ambulance-list">
+              <li>
+                <div class="d-flex ambulance-list-cover">
+                  <div class="ambulance-list-style"></div>
+                  <span>Người cao tuổi hoàn toàn khỏe mạnh, minh mẫn, tự phục
+                    vụ cá nhân.</span>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex  ambulance-list-cover">
+                  <div class="ambulance-list-style"></div>
+                  <span>Người cao tuổi suy giảm trí nhớ, sức khỏe không ổn định
+                    (yếu), không tự phục vụ cá nhân, phải chăm sóc nội
+                    trú.</span>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex ambulance-list-cover">
+                  <div class="ambulance-list-style"></div>
+
+                  <span>Người cao tuổi vừa trải qua một thời gian điều trị tại
+                    bệnh viện, có nhu cầu tiếp tục theo dõi.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ambulance-right-cover">
+            <div class="ambulance-left-top screen-mobile">
+              <div class="be-vietnam-pro-thin subtitle">Về khách hàng</div>
+              <div class="be-vietnam-pro-bold title">
+                Đối Tượng Khách Hàng
+              </div>
+            </div>
+            <div class="ambulance-right"></div>
           </div>
         </div>
-      </section>
-      <!-- Che do an uong -->
-      <!-- Schedule section for desktop -->
-      <section class="che-do-an-uong">
-
+      </div>
+    </section>
+    <!-- Che do an uong -->
+    <!-- Schedule section for desktop -->
+    <section class="che-do-an-uong">
+      <div class="cover">
         <div class="schedule-section d-none d-md-block">
           <p class="subtitle">Chế độ ăn uống</p>
           <h2>
@@ -531,173 +636,165 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Schedule section for mobile -->
 
-        <div id="carouselExampleControls" class="carousel slide mobile-slider d-block d-md-none card-section"
-          data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleControls"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li
-              data-target="#carouselExampleControls"
-              data-slide-to="1"
-            ></li>
-            <li
-              data-target="#carouselExampleControls"
-              data-slide-to="2"
-            ></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">05:00 - 06:30</h5>
-                      <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
+      <!-- Schedule section for mobile -->
+
+      <div id="carouselExampleControls" class="carousel slide mobile-slider d-block d-md-none card-section"
+        data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+          <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
                     </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom card-green">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">06:30 - 07:30</h5>
-                      <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">07:30 - 08:15</h5>
-                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/activities.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">08:15 - 10:30</h5>
-                      <p class="card-text">Sinh hoạt tập thể - Tập vật lý trị liệu</p>
-                    </div>
+                    <h5 class="card-title">05:00 - 06:30</h5>
+                    <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">05:00 - 06:30</h5>
-                      <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
+              <div class="col-6 mb-3">
+                <div class="card card-custom card-green">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
                     </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom card-green">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">06:30 - 07:30</h5>
-                      <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">07:30 - 08:15</h5>
-                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">07:30 - 08:15</h5>
-                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
-                    </div>
+                    <h5 class="card-title">06:30 - 07:30</h5>
+                    <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">05:00 - 06:30</h5>
-                      <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
                     </div>
+                    <h5 class="card-title">07:30 - 08:15</h5>
+                    <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
                   </div>
                 </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom card-green">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">06:30 - 07:30</h5>
-                      <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/activities.png" style="width: 25px; height: 25px;" />
                     </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">07:30 - 08:15</h5>
-                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 mb-3">
-                  <div class="card card-custom">
-                    <div class="card-body">
-                      <div class="icon">
-                        <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
-                      </div>
-                      <h5 class="card-title">07:30 - 08:15</h5>
-                      <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
-                    </div>
+                    <h5 class="card-title">08:15 - 10:30</h5>
+                    <p class="card-text">Sinh hoạt tập thể - Tập vật lý trị liệu</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- <button class="carousel-control-prev carousel-mobile-prev" type="button"
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">05:00 - 06:30</h5>
+                    <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom card-green">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">06:30 - 07:30</h5>
+                    <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">07:30 - 08:15</h5>
+                    <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">07:30 - 08:15</h5>
+                    <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/wakeup.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">05:00 - 06:30</h5>
+                    <p class="card-text">Thức dậy và vệ sinh cá nhân</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom card-green">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/coffee.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">06:30 - 07:30</h5>
+                    <p class="card-text">Thư giãn - Xem thời sự - Uống sữa hoặc cafe</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">07:30 - 08:15</h5>
+                    <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="card card-custom">
+                  <div class="card-body">
+                    <div class="icon">
+                      <img src="./assets/images/medicine.png" style="width: 25px; height: 25px;" />
+                    </div>
+                    <h5 class="card-title">07:30 - 08:15</h5>
+                    <p class="card-text">Kiểm tra dấu hiệu sinh tồn - Ăn sáng - Uống thuốc</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev carousel-mobile-prev" type="button"
         data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -707,392 +804,395 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button> -->
-        </div>
+      </div>
 
-      </section>
-      <!-- Blog -->
-      <section class="blog">
-        <div>
-          <div class="cover">
-            <div class="be-vietnam-pro-thin subtitle">
-              tin tức của chúng tôi
-            </div>
-            <div class="be-vietnam-pro-bold title">Bài Viết Gần Đây</div>
-            <div class="recent-posts screen-mobile">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="grid-item">
-                      <div class="post">
-                        <img src="./assets/images/blog-1.png" alt="blog-1" />
-                        <div class="post-info">
-                          <p class="date">
-                            <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                            14 Thg 10, 2022
-                          </p>
-                          <p class="category">Tin tức</p>
-                          <p class="views">
-                            <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
+    </section>
+    <!-- Blog -->
+    <section class="blog">
+      <div class="d-flex justify-content-center">
+        <div class="cover">
+          <div class="be-vietnam-pro-thin subtitle">
+            tin tức của chúng tôi
+          </div>
+          <div class="be-vietnam-pro-bold title">Bài Viết Gần Đây</div>
+          <div class="recent-posts screen-mobile">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="grid-item">
+                    <div class="post">
+                      <img src="./assets/images/blog-1.png" alt="blog-1" />
+                      <div class="post-info">
+                        <p class="date">
+                          <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                          14 Thg 10, 2022
+                        </p>
+                        <p class="category">Tin tức</p>
+                        <p class="views">
+                          <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
 
-                            124
-                          </p>
-                          <p class="comments">
-                            <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
+                          124
+                        </p>
+                        <p class="comments">
+                          <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
 
-                            0
-                          </p>
-                          <h3>
-                            Tập đoàn Discovery nghiên cứu khảo sát đầu tư dự
-                            án không gian sống người cao tuổi
-                          </h3>
-                          <p class="description be-vietnam-pro-thin">
-                            Dự án "Không gian sống người cao tuổi" tại Đơn
-                            Dương của Discovery Group là một dự án có ý nghĩa
-                            ...
-                          </p>
-                          <a class="detail be-vietnam-pro-thin" href="#">
-                            <div class="detail-cover">
-                              <p class="detail-text">Xem chi tiết</p>
-                              <div class="icon-group">
-                                <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                                <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                              </div>
+                          0
+                        </p>
+                        <h3>
+                          Tập đoàn Discovery nghiên cứu khảo sát đầu tư dự
+                          án không gian sống người cao tuổi
+                        </h3>
+                        <p class="description be-vietnam-pro-thin">
+                          Dự án "Không gian sống người cao tuổi" tại Đơn
+                          Dương của Discovery Group là một dự án có ý nghĩa
+                          ...
+                        </p>
+                        <a class="detail be-vietnam-pro-thin" href="#">
+                          <div class="detail-cover">
+                            <p class="detail-text">Xem chi tiết</p>
+                            <div class="icon-group">
+                              <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                              <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
                             </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="grid-item">
-                      <div class="post">
-                        <img src="./assets/images/blog-2.png" alt="blog-2" />
-                        <div class="post-info">
-                          <p class="date">
-                            <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                            14 Thg 10, 2022
-                          </p>
-                          <p class="category">Tin tức</p>
-                          <p class="views">
-                            <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
-
-                            124
-                          </p>
-                          <p class="comments">
-                            <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
-
-                            0
-                          </p>
-                          <h3>
-                            Trị liệu bằng âm nhạc tạo nên sự đồng cảm với cư
-                            dân, nâng cao sức khỏe cảm xúc
-                          </h3>
-                          <p class="description be-vietnam-pro-thin">
-                            Khi dân số của chúng ta già đi, tầm quan trọng của
-                            chăm sóc người cao tuổi toàn diện sự quan tâm ngày
-                            ...
-                          </p>
-                          <a class="detail be-vietnam-pro-thin" href="#">
-                            <div class="detail-cover">
-                              <p class="detail-text">Xem chi tiết</p>
-                              <div class="icon-group">
-                                <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                                <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="grid-item">
-                      <div class="post">
-                        <img src="./assets/images/blog-2.png" alt="blog-2" />
-                        <div class="post-info">
-                          <p class="date">
-                            <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                            14 Thg 10, 2022
-                          </p>
-                          <p class="category">Tin tức</p>
-                          <p class="views">
-                            <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
-
-                            124
-                          </p>
-                          <p class="comments">
-                            <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
-
-                            0
-                          </p>
-                          <h3>
-                            Trị liệu bằng âm nhạc tạo nên sự đồng cảm với cư
-                            dân, nâng cao sức khỏe cảm xúc
-                          </h3>
-                          <p class="description be-vietnam-pro-thin">
-                            Khi dân số của chúng ta già đi, tầm quan trọng của
-                            chăm sóc người cao tuổi toàn diện sự quan tâm ngày
-                            ...
-                          </p>
-                          <a class="detail be-vietnam-pro-thin" href="#">
-                            <div class="detail-cover">
-                              <p class="detail-text">Xem chi tiết</p>
-                              <div class="icon-group">
-                                <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                                <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                              </div>
-                            </div>
-                          </a>
-                        </div>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="recent-posts screen-pc">
-              <div class="grid-item">
-                <div class="post">
-                  <img src="./assets/images/blog-1.png" alt="blog-1" />
-                  <div class="post-info">
-                    <p class="date">
-                      <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                      14 Thg 10, 2022
-                    </p>
-                    <p class="category">Tin tức</p>
-                    <p class="views">
-                      <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
+                <div class="carousel-item">
+                  <div class="grid-item">
+                    <div class="post">
+                      <img src="./assets/images/blog-2.png" alt="blog-2" />
+                      <div class="post-info">
+                        <p class="date">
+                          <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                          14 Thg 10, 2022
+                        </p>
+                        <p class="category">Tin tức</p>
+                        <p class="views">
+                          <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
 
-                      124
-                    </p>
-                    <p class="comments">
-                      <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
+                          124
+                        </p>
+                        <p class="comments">
+                          <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
 
-                      0
-                    </p>
-                    <h3>
-                      Tập đoàn Discovery nghiên cứu khảo sát đầu tư dự án
-                      không gian sống người cao tuổi
-                    </h3>
-                    <p class="description be-vietnam-pro-thin">
-                      Dự án "Không gian sống người cao tuổi" tại Đơn Dương của
-                      Discovery Group là một dự án có ý nghĩa ...
-                    </p>
-                    <a class="detail be-vietnam-pro-thin" href="#">
-                      <div class="detail-cover">
-                        <p class="detail-text">Xem chi tiết</p>
-                        <div class="icon-group">
-                          <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                          <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                        </div>
+                          0
+                        </p>
+                        <h3>
+                          Trị liệu bằng âm nhạc tạo nên sự đồng cảm với cư
+                          dân, nâng cao sức khỏe cảm xúc
+                        </h3>
+                        <p class="description be-vietnam-pro-thin">
+                          Khi dân số của chúng ta già đi, tầm quan trọng của
+                          chăm sóc người cao tuổi toàn diện sự quan tâm ngày
+                          ...
+                        </p>
+                        <a class="detail be-vietnam-pro-thin" href="#">
+                          <div class="detail-cover">
+                            <p class="detail-text">Xem chi tiết</p>
+                            <div class="icon-group">
+                              <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                              <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                            </div>
+                          </div>
+                        </a>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="grid-item">
-                <div class="post">
-                  <img src="./assets/images/blog-2.png" alt="blog-2" />
-                  <div class="post-info">
-                    <p class="date">
-                      <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                      14 Thg 10, 2022
-                    </p>
-                    <p class="category">Tin tức</p>
-                    <p class="views">
-                      <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
+                <div class="carousel-item">
+                  <div class="grid-item">
+                    <div class="post">
+                      <img src="./assets/images/blog-2.png" alt="blog-2" />
+                      <div class="post-info">
+                        <p class="date">
+                          <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                          14 Thg 10, 2022
+                        </p>
+                        <p class="category">Tin tức</p>
+                        <p class="views">
+                          <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
 
-                      124
-                    </p>
-                    <p class="comments">
-                      <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
+                          124
+                        </p>
+                        <p class="comments">
+                          <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
 
-                      0
-                    </p>
-                    <h3>
-                      Trị liệu bằng âm nhạc tạo nên sự đồng cảm với cư dân,
-                      nâng cao sức khỏe cảm xúc
-                    </h3>
-                    <p class="description be-vietnam-pro-thin">
-                      Khi dân số của chúng ta già đi, tầm quan trọng của chăm
-                      sóc người cao tuổi toàn diện sự quan tâm ngày ...
-                    </p>
-                    <a class="detail be-vietnam-pro-thin" href="#">
-                      <div class="detail-cover">
-                        <p class="detail-text">Xem chi tiết</p>
-                        <div class="icon-group">
-                          <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                          <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
-                        </div>
+                          0
+                        </p>
+                        <h3>
+                          Trị liệu bằng âm nhạc tạo nên sự đồng cảm với cư
+                          dân, nâng cao sức khỏe cảm xúc
+                        </h3>
+                        <p class="description be-vietnam-pro-thin">
+                          Khi dân số của chúng ta già đi, tầm quan trọng của
+                          chăm sóc người cao tuổi toàn diện sự quan tâm ngày
+                          ...
+                        </p>
+                        <a class="detail be-vietnam-pro-thin" href="#">
+                          <div class="detail-cover">
+                            <p class="detail-text">Xem chi tiết</p>
+                            <div class="icon-group">
+                              <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                              <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                            </div>
+                          </div>
+                        </a>
                       </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <div class="post post-style-2">
-                  <div class="post-info">
-                    <p class="date">
-                      <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                      14 Thg 10, 2022
-                    </p>
-                    <p class="category">Tin tức</p>
-                    <p class="views">
-                      <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
-
-                      124
-                    </p>
-                    <p class="comments">
-                      <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
-
-                      0
-                    </p>
-                    <h3>
-                      Chương trình chăm sóc sức khỏe đổi mới nâng cao trải
-                      nghiệm sống của người cao tuổi
-                    </h3>
-                    <p class="description be-vietnam-pro-thin">
-                      Khi dân số của chúng ta già đi, tầm quan trọng của chăm
-                      sóc người cao tuổi toàn diện sự quan tâm ngày ...
-                    </p>
-                  </div>
-                </div>
-                <div class="post post-style-2">
-                  <div class="post-info">
-                    <p class="date">
-                      <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
-                      14 Thg 10, 2022
-                    </p>
-                    <p class="category">Tin tức</p>
-                    <p class="views">
-                      <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
-
-                      124
-                    </p>
-                    <p class="comments">
-                      <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
-
-                      0
-                    </p>
-                    <h3>
-                      Dự án xây dựng Khu nghỉ dưỡng và chăm sóc sức khỏe người
-                      cao tuổi
-                    </h3>
-                    <p class="description be-vietnam-pro-thin">
-                      Dự án xây dựng Khu nghỉ dưỡng và chăm sóc sức khỏe người
-                      cao tuổi với mong muốn đáp ứng nhu cầu ...
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container-fluid be-vietnam-pro-thin">
-        <div class="row gx-5">
-          <div class="col-sm-12 col-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="logo mb-3">
-              <img src="assets/images/logo.png" alt="Logo" class="me-2">
+          <div class="recent-posts screen-pc">
+            <div class="grid-item">
+              <div class="post">
+                <img src="./assets/images/blog-1.png" alt="blog-1" />
+                <div class="post-info">
+                  <p class="date">
+                    <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                    14 Thg 10, 2022
+                  </p>
+                  <p class="category">Tin tức</p>
+                  <p class="views">
+                    <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
+
+                    124
+                  </p>
+                  <p class="comments">
+                    <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
+
+                    0
+                  </p>
+                  <h3>
+                    Tập đoàn Discovery nghiên cứu khảo sát đầu tư dự án
+                    không gian sống người cao tuổi
+                  </h3>
+                  <p class="description be-vietnam-pro-thin">
+                    Dự án "Không gian sống người cao tuổi" tại Đơn Dương của
+                    Discovery Group là một dự án có ý nghĩa ...
+                  </p>
+                  <a class="detail be-vietnam-pro-thin" href="#">
+                    <div class="detail-cover">
+                      <p class="detail-text">Xem chi tiết</p>
+                      <div class="icon-group">
+                        <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                        <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
-            <h3>Không gian sống người cao tuổi - Thiên đường trọn kiếp nhân sinh</h3>
-          </div>
-          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <h5 class="mb-5 fw-bold" style="font-size: 20px;">Dịch Vụ</h5>
-            <ul class="list-unstyled" style="line-height: 30px;">
-              <li class="d-flex align-items-center justify-content-start">
-                <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
-                <a style="color: black;" href="#">Về Chúng Tôi</a>
-              </li>
-              <li class="d-flex align-items-center justify-content-start">
-                <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
-                <a style="color: black" href="#">Liên Hệ</a>
-              </li>
-              <li class="d-flex align-items-center justify-content-start">
-                <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
-                <a style="color: black" href="#">Chăm Sóc Cao Cấp</a>
-              </li>
-              <li class="d-flex align-items-center justify-content-start">
-                <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
-                <a style="color: black" href="#">Tin Tức</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <h5 class="mb-5 fw-bold" style="font-size: 20px;">Thông Tin Liên Hệ</h5>
-            <ul class="list-unstyled contact-info lh-lg">
-              <li style="max-width: 100%;">
-                <div class="d-flex justify-content-start align-items-center gap-2">
-                  <div style="margin-right: 15px;">
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="30" height="30" rx="15" fill="#419636" />
-                      <path
-                        d="M20 18.165C20 18.345 19.9599 18.53 19.8748 18.71C19.7897 18.89 19.6795 19.06 19.5343 19.22C19.2889 19.49 19.0185 19.685 18.7131 19.81C18.4126 19.935 18.0871 20 17.7366 20C17.2258 20 16.68 19.88 16.1042 19.635C15.5283 19.39 14.9524 19.06 14.3816 18.645C13.8057 18.225 13.2599 17.76 12.7391 17.245C12.2233 16.725 11.7576 16.18 11.342 15.61C10.9314 15.04 10.6009 14.47 10.3605 13.905C10.1202 13.335 10 12.79 10 12.27C10 11.93 10.0601 11.605 10.1803 11.305C10.3005 11 10.4907 10.72 10.7561 10.47C11.0766 10.155 11.4271 10 11.7977 10C11.9379 10 12.0781 10.03 12.2033 10.09C12.3335 10.15 12.4487 10.24 12.5388 10.37L13.7006 12.005C13.7907 12.13 13.8558 12.245 13.9009 12.355C13.9459 12.46 13.971 12.565 13.971 12.66C13.971 12.78 13.9359 12.9 13.8658 13.015C13.8007 13.13 13.7056 13.25 13.5854 13.37L13.2048 13.765C13.1497 13.82 13.1247 13.885 13.1247 13.965C13.1247 14.005 13.1297 14.04 13.1397 14.08C13.1547 14.12 13.1698 14.15 13.1798 14.18C13.2699 14.345 13.4251 14.56 13.6455 14.82C13.8708 15.08 14.1112 15.345 14.3716 15.61C14.642 15.875 14.9024 16.12 15.1678 16.345C15.4281 16.565 15.6435 16.715 15.8137 16.805C15.8388 16.815 15.8688 16.83 15.9039 16.845C15.9439 16.86 15.984 16.865 16.029 16.865C16.1142 16.865 16.1793 16.835 16.2344 16.78L16.6149 16.405C16.7401 16.28 16.8603 16.185 16.9755 16.125C17.0906 16.055 17.2058 16.02 17.331 16.02C17.4261 16.02 17.5263 16.04 17.6365 16.085C17.7466 16.13 17.8618 16.195 17.987 16.28L19.6445 17.455C19.7747 17.545 19.8648 17.65 19.9199 17.775C19.97 17.9 20 18.025 20 18.165Z"
-                        stroke="white" stroke-miterlimit="10" />
-                    </svg>
-                  </div>
+            <div class="grid-item">
+              <div class="post">
+                <img src="./assets/images/blog-2.png" alt="blog-2" />
+                <div class="post-info">
+                  <p class="date">
+                    <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                    14 Thg 10, 2022
+                  </p>
+                  <p class="category">Tin tức</p>
+                  <p class="views">
+                    <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
 
-                  <div class="">
-                    <strong>Số Điện Thoại</strong>
-                    <div>097380808</div>
-                  </div>
-                </div>
-              </li>
-              <li style="width: 100%;">
-                <div class="d-flex justify-content-start align-items-center gap-2">
-                  <div style="margin-right: 15px;">
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="30" height="30" rx="15" fill="#419636" />
-                      <path
-                        d="M17.5 13.5882L15.935 14.7647C15.42 15.1506 14.575 15.1506 14.06 14.7647L12.5 13.5882M17.5 19H12.5C11 19 10 18.2941 10 16.6471V13.3529C10 11.7059 11 11 12.5 11H17.5C19 11 20 11.7059 20 13.3529V16.6471C20 18.2941 19 19 17.5 19Z"
-                        stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </div>
+                    124
+                  </p>
+                  <p class="comments">
+                    <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
 
-                  <div class="">
-                    <strong>Email</strong>
-                    <div>info@discoverygroup.vn</div>
-                  </div>
+                    0
+                  </p>
+                  <h3>
+                    Trị liệu bằng âm nhạc tạo nên sự đồng cảm với cư dân,
+                    nâng cao sức khỏe cảm xúc
+                  </h3>
+                  <p class="description be-vietnam-pro-thin">
+                    Khi dân số của chúng ta già đi, tầm quan trọng của chăm
+                    sóc người cao tuổi toàn diện sự quan tâm ngày ...
+                  </p>
+                  <a class="detail be-vietnam-pro-thin" href="#">
+                    <div class="detail-cover">
+                      <p class="detail-text">Xem chi tiết</p>
+                      <div class="icon-group">
+                        <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                        <img src="./assets/svg/arrow.svg" alt="arrow-icon" />
+                      </div>
+                    </div>
+                  </a>
                 </div>
-              </li>
-              <li style="width: 100%;">
-                <div class="d-flex justify-content-start align-items-center gap-2">
-                  <div style="margin-right: 15px;">
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="30" height="30" rx="15" fill="#419636" />
-                      <path
-                        d="M15 15.7166C15.7994 15.7166 16.4473 15.018 16.4473 14.1563C16.4473 13.2945 15.7994 12.5959 15 12.5959C14.2007 12.5959 13.5527 13.2945 13.5527 14.1563C13.5527 15.018 14.2007 15.7166 15 15.7166Z"
-                        stroke="white" />
-                      <path
-                        d="M11.1126 13.2458C12.0265 8.91473 17.9782 8.91973 18.8874 13.2508C19.4209 15.7914 17.955 17.942 16.67 19.2723C15.7376 20.2426 14.2624 20.2426 13.3254 19.2723C12.045 17.942 10.5791 15.7864 11.1126 13.2458Z"
-                        stroke="white" />
-                    </svg>
-                  </div>
-                  <div class="">
-                    <strong>Địa chỉ:</strong>
-                    <div class="text-wrap" style="width: 100%">Tầng 6, Tòa M1, 6th Element, Xuân Tảo, Xuân La, Tây Hồ, Hà
-                      Nội.</div>
-                  </div>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="post post-style-2">
+                <div class="post-info">
+                  <p class="date">
+                    <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                    14 Thg 10, 2022
+                  </p>
+                  <p class="category">Tin tức</p>
+                  <p class="views">
+                    <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
+
+                    124
+                  </p>
+                  <p class="comments">
+                    <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
+
+                    0
+                  </p>
+                  <h3>
+                    Chương trình chăm sóc sức khỏe đổi mới nâng cao trải
+                    nghiệm sống của người cao tuổi
+                  </h3>
+                  <p class="description be-vietnam-pro-thin">
+                    Khi dân số của chúng ta già đi, tầm quan trọng của chăm
+                    sóc người cao tuổi toàn diện sự quan tâm ngày ...
+                  </p>
                 </div>
-              </li>
-            </ul>
+              </div>
+              <div class="post post-style-2">
+                <div class="post-info">
+                  <p class="date">
+                    <img class="icon" src="./assets/svg/oclock.svg" alt="oclock-icon" />
+                    14 Thg 10, 2022
+                  </p>
+                  <p class="category">Tin tức</p>
+                  <p class="views">
+                    <img class="icon" src="./assets/svg/eye.svg" alt="eye-icon" />
+
+                    124
+                  </p>
+                  <p class="comments">
+                    <img class="icon" src="./assets/svg/comment.svg" alt="comment-icon" />
+
+                    0
+                  </p>
+                  <h3>
+                    Dự án xây dựng Khu nghỉ dưỡng và chăm sóc sức khỏe người
+                    cao tuổi
+                  </h3>
+                  <p class="description be-vietnam-pro-thin">
+                    Dự án xây dựng Khu nghỉ dưỡng và chăm sóc sức khỏe người
+                    cao tuổi với mong muốn đáp ứng nhu cầu ...
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container-fluid be-vietnam-pro-thin">
+      <div class="row gx-5">
+        <div class="col-sm-12 col-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="logo mb-3">
+            <img src="assets/images/logo.png" alt="Logo" class="me-2">
+          </div>
+          <h3>Không gian sống người cao tuổi - Thiên đường trọn kiếp nhân sinh</h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <h5 class="mb-2 mt-5 fw-bold" style="font-size: 20px;">Dịch Vụ</h5>
+          <ul class="list-unstyled" style="line-height: 30px;">
+            <li class="d-flex align-items-center justify-content-start be-vietnam-pro-bold">
+              <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
+              <a style="color: black;" href="#">Về Chúng Tôi</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-start be-vietnam-pro-bold">
+              <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
+              <a style="color: black" href="#">Liên Hệ</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-start be-vietnam-pro-bold">
+              <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
+              <a style="color: black" href="#">Chăm Sóc Cao Cấp</a>
+            </li>
+            <li class="d-flex align-items-center justify-content-start be-vietnam-pro-bold">
+              <img src="./assets/images/icon/arrow.png" alt="arrow" height="8" style="margin-right: 5px;" />
+              <a style="color: black" href="#">Tin Tức</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <h5 class="mb-2 mt-5 fw-bold" style="font-size: 20px;">Thông Tin Liên Hệ</h5>
+          <ul class="list-unstyled contact-info lh-lg">
+            <li style="max-width: 100%;">
+              <div class="d-flex justify-content-start align-items-center gap-2">
+                <div style="margin-right: 15px;">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="30" height="30" rx="15" fill="#419636" />
+                    <path
+                      d="M20 18.165C20 18.345 19.9599 18.53 19.8748 18.71C19.7897 18.89 19.6795 19.06 19.5343 19.22C19.2889 19.49 19.0185 19.685 18.7131 19.81C18.4126 19.935 18.0871 20 17.7366 20C17.2258 20 16.68 19.88 16.1042 19.635C15.5283 19.39 14.9524 19.06 14.3816 18.645C13.8057 18.225 13.2599 17.76 12.7391 17.245C12.2233 16.725 11.7576 16.18 11.342 15.61C10.9314 15.04 10.6009 14.47 10.3605 13.905C10.1202 13.335 10 12.79 10 12.27C10 11.93 10.0601 11.605 10.1803 11.305C10.3005 11 10.4907 10.72 10.7561 10.47C11.0766 10.155 11.4271 10 11.7977 10C11.9379 10 12.0781 10.03 12.2033 10.09C12.3335 10.15 12.4487 10.24 12.5388 10.37L13.7006 12.005C13.7907 12.13 13.8558 12.245 13.9009 12.355C13.9459 12.46 13.971 12.565 13.971 12.66C13.971 12.78 13.9359 12.9 13.8658 13.015C13.8007 13.13 13.7056 13.25 13.5854 13.37L13.2048 13.765C13.1497 13.82 13.1247 13.885 13.1247 13.965C13.1247 14.005 13.1297 14.04 13.1397 14.08C13.1547 14.12 13.1698 14.15 13.1798 14.18C13.2699 14.345 13.4251 14.56 13.6455 14.82C13.8708 15.08 14.1112 15.345 14.3716 15.61C14.642 15.875 14.9024 16.12 15.1678 16.345C15.4281 16.565 15.6435 16.715 15.8137 16.805C15.8388 16.815 15.8688 16.83 15.9039 16.845C15.9439 16.86 15.984 16.865 16.029 16.865C16.1142 16.865 16.1793 16.835 16.2344 16.78L16.6149 16.405C16.7401 16.28 16.8603 16.185 16.9755 16.125C17.0906 16.055 17.2058 16.02 17.331 16.02C17.4261 16.02 17.5263 16.04 17.6365 16.085C17.7466 16.13 17.8618 16.195 17.987 16.28L19.6445 17.455C19.7747 17.545 19.8648 17.65 19.9199 17.775C19.97 17.9 20 18.025 20 18.165Z"
+                      stroke="white" stroke-miterlimit="10" />
+                  </svg>
+                </div>
+
+                <div class="">
+                  <div class="be-vietnam-pro-bold">Số Điện Thoại</div>
+                  <div>097380808</div>
+                </div>
+              </div>
+            </li>
+            <li style="width: 100%;">
+              <div class="d-flex justify-content-start align-items-center gap-2">
+                <div style="margin-right: 15px;">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="30" height="30" rx="15" fill="#419636" />
+                    <path
+                      d="M17.5 13.5882L15.935 14.7647C15.42 15.1506 14.575 15.1506 14.06 14.7647L12.5 13.5882M17.5 19H12.5C11 19 10 18.2941 10 16.6471V13.3529C10 11.7059 11 11 12.5 11H17.5C19 11 20 11.7059 20 13.3529V16.6471C20 18.2941 19 19 17.5 19Z"
+                      stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+
+                <div class="">
+                  <div class="be-vietnam-pro-bold">Email</div>
+                  <div>info@discoverygroup.vn</div>
+                </div>
+              </div>
+            </li>
+            <li style="width: 100%;">
+              <div class="d-flex justify-content-start align-items-center gap-2">
+                <div style="margin-right: 15px;">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="30" height="30" rx="15" fill="#419636" />
+                    <path
+                      d="M15 15.7166C15.7994 15.7166 16.4473 15.018 16.4473 14.1563C16.4473 13.2945 15.7994 12.5959 15 12.5959C14.2007 12.5959 13.5527 13.2945 13.5527 14.1563C13.5527 15.018 14.2007 15.7166 15 15.7166Z"
+                      stroke="white" />
+                    <path
+                      d="M11.1126 13.2458C12.0265 8.91473 17.9782 8.91973 18.8874 13.2508C19.4209 15.7914 17.955 17.942 16.67 19.2723C15.7376 20.2426 14.2624 20.2426 13.3254 19.2723C12.045 17.942 10.5791 15.7864 11.1126 13.2458Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+                <div class="">
+                  <div class="be-vietnam-pro-bold">Địa chỉ:</div>
+                  <div class="text-wrap" style="width: 100%">Tầng 6, Tòa M1, 6th Element, Xuân Tảo, Xuân La, Tây Hồ, Hà
+                    Nội.</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/text-animation.js"></script>
+  <script src="./assets/js/accordion.js"></script>
+  <script src="./assets/js/scroll.js"></script>
 
 </body>
 

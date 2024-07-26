@@ -11,6 +11,11 @@
   font-size: 14px;
 }
 
+.blog {
+  display: flex;
+  justify-content: center;
+}
+
 .blog .subtitle {
   text-align: center;
 
@@ -30,6 +35,7 @@
 }
 .blog .cover {
   padding: 70px;
+  max-width: 1440px;
 }
 .blog .recent-posts {
   display: grid;
