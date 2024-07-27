@@ -27,12 +27,12 @@
 }
 @keyframes slideIn {
   from {
-      transform: translateX(-50%) translateY(100%);
-      opacity: 0;
+    transform: translateX(-50%) translateY(100%);
+    opacity: 0;
   }
   to {
-      transform: translateX(-50%) translateY(-50%);
-      opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 1;
   }
 }
 
@@ -65,7 +65,6 @@
   flex-direction: column;
   animation: icon-appears 2s ease forwards;
 }
-
 .social-icons a img {
   color: white;
   margin-left: 10px;
@@ -73,6 +72,10 @@
   color: white;
   margin-left: 10px;
   width: 20px;
+}
+
+.social-icons .icon a:hover {
+  background-image: url("../svg/diamond.svg");
 }
 
 .social-icons .icon {
@@ -160,7 +163,7 @@
 .schedule-section .schedule-row {
   display: flex;
   justify-content: space-between;
-  gap: 100px
+  gap: 100px;
 }
 
 .schedule-section .schedule-row .col-right {
@@ -175,46 +178,45 @@
   height: 122px;
   align-items: center;
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 15px;
   padding: 20px 30px 20px 30px;
   border: 1px solid #419636;
 }
 
-.schedule-item:hover {
+.schedule-item:hover{
   background-color: #419636;
   color: #fff !important;
-  padding: 20px 30px 20px 30px;
-  border: none;
-  background-color: #419636;
-  color: #fff !important;
-  padding: 20px 30px 20px 30px;
   border: none;
   cursor: pointer;
 }
 
+.schedule-item:hover p{
+  color: #fff !important;
+}
+
+.schedule-item:hover img{
+  filter: brightness(0) invert(1); /* Change to white color on hover */
+}
+
+
 .schedule-item.active {
   background-color: #419636;
   color: #fff !important;
-  padding: 20px 30px 20px 30px;
   border: none;
-  background-color: #419636;
+}
+
+.schedule-item.active p {
   color: #fff !important;
-  padding: 20px 30px 20px 30px;
-  border: none;
 }
 
 .schedule-item-icon {
   font-size: 2rem;
   color: var(--pri-dac);
   margin-right: 15px;
-  font-size: 2rem;
-  color: var(--pri-dac);
-  margin-right: 15px;
 }
 
 .schedule-item-content {
-  flex-grow: 1;
   flex-grow: 1;
 }
 
@@ -283,10 +285,10 @@
   justify-content: center;
 }
 .che-do-an-uong .schedule-row .col-left {
-  margin-right: 35px
+  margin-right: 35px;
 }
 .che-do-an-uong .schedule-row .col-right {
-  margin-left: 35px
+  margin-left: 35px;
 }
 .che-do-an-uong .carousel-indicators {
   position: absolute;

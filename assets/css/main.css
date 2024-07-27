@@ -7,6 +7,10 @@
 @import "./out-center.css";
 @import "./about.css";
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 @keyframes smooth-appear {
   from {
     bottom: 30px;
