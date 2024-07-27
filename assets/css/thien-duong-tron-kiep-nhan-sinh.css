@@ -68,12 +68,20 @@
   margin: 0; /* Remove default margin */
 }
 
-@media (max-width: 390px) {
+.swiper-container-mobile {
+  display: none;
+}
+
+@media (max-width: 390px), (max-width: 768px), (max-width: 600px) {
   .swiper-container {
+    display: none !important;
+  }
+
+  .swiper-container-mobile {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns in mobile */
-
-    gap: 20px; /* Adjust gap between items */
+    place-items: center;
+    gap: 10px; /* Adjust gap between items */
   }
 
   .swiper-wrapper {
