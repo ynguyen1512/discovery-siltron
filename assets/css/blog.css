@@ -24,14 +24,14 @@
   line-height: 17.71px;
   letter-spacing: 5px;
   opacity: 0.5;
-  color: var(--sce-dac);
+  color: var(--sce-ds);
   margin-bottom: 10px;
 }
 .blog .title {
   text-align: center;
   font-size: 40px;
   line-height: 50.6px;
-  color: var(--sce-dac);
+  color: var(--sce-ds);
 }
 .blog .cover {
   padding: 70px;
@@ -81,19 +81,20 @@
 }
 .blog .post h3 {
   font-size: 16px;
-  color: var(--sce-dac);
+  font-weight: 600;
+  color: var(--text-ds);
 }
 .blog .post .category {
   border-left: 0.5px solid;
   border-right: 0.5px solid;
-  border-color: var(--sce-dac);
+  border-color: var(--sce-ds);
   padding: 0 10px;
   line-height: 10px;
 }
 
 .blog .post-info {
   font-size: 12px;
-  color: var(--sce-dac);
+  color: var(--sce-ds);
   margin: 20px 0;
 }
 .blog .post .detail {
@@ -104,8 +105,9 @@
 }
 .blog .post .detail .detail-cover {
   cursor: pointer;
-  font-size: 12px;
-  color: var(--pri-dac);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--sce-ds);
   display: flex;
 }
 .blog .post .detail .icon-group img {
@@ -121,26 +123,29 @@
 .category,
 .views,
 .comments {
-  color: var(--sce-dac);
+  color: var(--sce-ds);
   font-size: 0.9em;
   display: inline-block;
   margin-right: 10px;
 }
 
 .blog .post h3 {
-  color: var(--sce-dac);
+  color: var(--text-ds);
   font-size: 16px;
+  font-weight: 600;
   margin: 10px 0;
 }
 
 .blog .post .description {
-  color: var(--sce-dac);
+  color: var(--text-ds);
   margin-bottom: 10px;
   font-size: 14px;
+  font-weight: 300;
 }
 .blog .post-style-2 {
   padding: 20px;
-  background-color: var(--c50-dac);
+  background-color: #f2f8fd;
+  border-radius: 10px;
 }
 .blog .carousel-indicators li {
   background-image: url("../svg/diamond.svg");

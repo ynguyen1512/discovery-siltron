@@ -1,0 +1,125 @@
+.header-text .text-cover {
+  padding: 30px;
+}
+
+.header-text .text-1 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50.6px;
+  color: var(--pri-ds);
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.header-text .text-2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50.6px;
+  color: var(--sce-ds);
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.header-text .text-3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22.77px;
+  color: var(--text-ds);
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.icon-text {
+  transition: background-color 0.3s, color 0.3s;
+  padding: 60px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 303px;
+  height: auto;
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.icon-text img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px; /* Added margin-bottom for spacing */
+  fill: var(--pri-dac); /* Set the default color */
+}
+
+.icon-text:hover {
+  background-color: var(--sce-ds);
+  color: var(--c100-ds);
+}
+.icon-text:hover span {
+  color: var(--c100-ds);
+}
+
+.icon-text:hover img {
+  filter: brightness(0) invert(1); /* Change to white color on hover */
+}
+
+.icon-text-active {
+  background-color: var(--sce-ds);
+  color: var(--c100-ds);
+}
+.icon-text-active span {
+  color: var(--c100-ds) !important;
+}
+
+.icon-text p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.71px;
+  margin: 0; /* Remove default margin */
+}
+
+.icon-text span {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17.71px;
+  padding-top: 15px; /* Remove default margin */
+  color: var(--text-ds);
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .icon-text {
+    padding: 20px 10px;
+    margin: 0px 5px;
+  }
+
+  .header-text .text-1 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.3px;
+    color: var(--pri-ds);
+    margin-bottom: 10px; /* Added margin-bottom */
+  }
+
+  .header-text .text-2 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.3px;
+    color: var(--sce-ds);
+    margin-bottom: 10px; /* Added margin-bottom */
+  }
+
+  .header-text .text-3 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17.71px;
+    color: var(--text-ds);
+    margin-bottom: 10px; /* Added margin-bottom */
+  }
+}
