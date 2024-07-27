@@ -1,13 +1,14 @@
 .footer {
-  background-color: #f3fbf2;
+  background-color: var(--sce-ds);
   padding: 40px 20px 40px 20px;
   display: flex;
+  color: var(--white-color);
 }
 .footer h5 {
   font-weight: bold;
 }
 .footer a {
-  color: #5cb85c;
+  color: var(--pri-ds);
   text-decoration: none;
 }
 .footer a:hover {
@@ -22,8 +23,8 @@
   font-weight: bold;
 }
 .footer .logo img {
-  width: 217px;
-  height: 58px;
+  width: 180;
+  height: 162px;
   gap: 0px;
   opacity: 0px;
 }

@@ -34,7 +34,11 @@
 }
 
 .custom-navbar .navbar-nav .nav-item a:hover {
-  color: var(--pri-dac) !important;
+  color: var(--pri-ds) !important;
+}
+
+.nav-link:hover {
+  color: var(--pri-ds) !important;
 }
 
 .navbar-nav {
@@ -47,7 +51,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--pri-dac);
+  background-color: var(--sce-ds);
   color: white;
   display: none;
   flex-direction: column;
@@ -78,36 +82,36 @@
 
 @media (max-width: 992px) {
   body {
-    padding-bottom: 40px; /* Same height as the navbar */
+    padding-bottom: 50px; /* Same height as the navbar */
   }
   .custom-navbar {
     bottom: 0 !important;
     position: fixed !important;
-    background-color: #419636 !important;
-    height: 40px !important;
+    background-color: var(--sce-ds) !important;
+    height: 10% !important;
   }
 }
 
 @media (max-width: 768px) {
   body {
-    padding-bottom: 40px; /* Same height as the navbar */
+    padding-bottom: 50px; /* Same height as the navbar */
   }
   .custom-navbar {
     bottom: 0 !important;
     position: fixed !important;
-    background-color: #419636 !important;
-    height: 40px !important;
+    background-color: var(--sce-ds) !important;
+    height: 10% !important;
   }
 }
 
 @media (max-width: 600px) {
   body {
-    padding-bottom: 40px; /* Same height as the navbar */
+    padding-bottom: 50px; /* Same height as the navbar */
   }
   .custom-navbar {
     bottom: 0 !important;
     position: fixed !important;
-    background-color: #419636 !important;
-    height: 40px !important;
+    background-color: var(--sce-ds) !important;
+    height: 10% !important;
   }
 }

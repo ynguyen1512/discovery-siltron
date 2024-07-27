@@ -5,9 +5,9 @@
   --c50-dac: #f2fbf2;
   --c100-dac: #fff;
   --c900-dac: #25471f;
-  --pri-ds: #E74822;
-  --sce-ds: #00254E;
-  --text-ds: #66717A;
+  --pri-ds: #e74822;
+  --sce-ds: #00254e;
+  --text-ds: #66717a;
   --c100-ds: #e3eefb;
 }
 ::-webkit-scrollbar {
@@ -16,11 +16,11 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px  var(--c50-dac);
+  box-shadow: inset 0 0 5px var(--c100-ds);
   border-radius: 15px;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(  --pri-dac);
+  background: var(--sce-ds);
   border-radius: 15px;
 }
 * {
