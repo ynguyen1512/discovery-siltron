@@ -78,36 +78,36 @@
 
 @media (max-width: 992px) {
   body {
-    padding-bottom: 50px; /* Same height as the navbar */
+    padding-bottom: 40px; /* Same height as the navbar */
   }
   .custom-navbar {
     bottom: 0 !important;
     position: fixed !important;
     background-color: #419636 !important;
-    height: 10% !important;
+    height: 40px !important;
   }
 }
 
 @media (max-width: 768px) {
   body {
-    padding-bottom: 50px; /* Same height as the navbar */
+    padding-bottom: 40px; /* Same height as the navbar */
   }
   .custom-navbar {
     bottom: 0 !important;
     position: fixed !important;
     background-color: #419636 !important;
-    height: 10% !important;
+    height: 40px !important;
   }
 }
 
 @media (max-width: 600px) {
   body {
-    padding-bottom: 50px; /* Same height as the navbar */
+    padding-bottom: 40px; /* Same height as the navbar */
   }
   .custom-navbar {
     bottom: 0 !important;
     position: fixed !important;
     background-color: #419636 !important;
-    height: 10% !important;
+    height: 40px !important;
   }
 }

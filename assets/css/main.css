@@ -6,9 +6,8 @@
 @import "./carousel.css";
 @import "./out-center.css";
 @import "./about.css";
-
-body {
-  max-width: 100%;
+.app-container {
+  width: 100%;
   overflow-x: hidden;
 }
 @keyframes smooth-appear {

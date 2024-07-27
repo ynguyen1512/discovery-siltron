@@ -1,15 +1,18 @@
 function checkScrollPosition() {
-  // console.log('checking scroll position: ', window.scrollY);
+  var w = window.innerWidth;
   var buttons = document.getElementById("float-buttons");
   var icons = document.getElementById("float-icons");
-  if (window.scrollY <= 500) {
-    console.log("Scrollbar is at the top");
+  if (w > 426) {
+    if (window.scrollY <= 500) {
+      buttons.style.display = "none";
+      icons.style.display = "flex";
+    } else {
+      icons.style.display = "none";
+      buttons.style.display = "flex";
+    }
+  } else {
     buttons.style.display = "none";
     icons.style.display = "flex";
-  } else {
-    console.log("Scrollbar is not at the top");
-    icons.style.display = "none";
-    buttons.style.display = "flex";
   }
 }
 
