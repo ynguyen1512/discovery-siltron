@@ -57,34 +57,45 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: absolute;
   bottom: 10px;
-  right: 5%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   animation: icon-appears 2s ease forwards;
-}
-.social-icons a img {
-  color: white;
-  margin-left: 10px;
-  width: 20px;
-  color: white;
-  margin-left: 10px;
-  width: 20px;
+  z-index: 100;
 }
 
-.social-icons .icon a:hover {
+.social-icons .icon a {
+  display: inline-block;
+  position: relative;
+  width: 40px; 
+  height: 40px; 
+  text-align: center; 
+}
+
+.social-icons .icon a img {
+  width: 20px; 
+  position: relative;
+  z-index: 1; 
+}
+
+.social-icons .icon a::before {
+  content: "";
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  height: 0;
   background-image: url("../svg/diamond.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease; 
+  z-index: 0;
+}
+
+.social-icons .icon a:hover::before {
+  width: 40px;
+  height: 30px;
 }
 
 .social-icons .icon {
-  margin-left: -10px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  gap: 10px;
-  margin-left: -10px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
