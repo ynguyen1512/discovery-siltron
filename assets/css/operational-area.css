@@ -1,5 +1,7 @@
 .header-text .text-cover {
   padding: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-text .text-1 {
@@ -27,6 +29,7 @@
   line-height: 22.77px;
   color: var(--text-ds);
   margin-bottom: 10px; /* Added margin-bottom */
+  max-width: 50%;
 }
 
 .icon-text {
@@ -36,7 +39,7 @@
   cursor: pointer;
   width: 100%;
   max-width: 303px;
-  height: auto;
+  height: 100%;
   margin: 0px 15px;
   display: flex;
   flex-direction: column;
@@ -121,5 +124,6 @@
     line-height: 17.71px;
     color: var(--text-ds);
     margin-bottom: 10px; /* Added margin-bottom */
+    max-width: 100%;
   }
 }

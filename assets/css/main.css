@@ -12,6 +12,7 @@
   width: 100%;
   overflow-x: hidden;
 }
+
 @keyframes smooth-appear {
   from {
     bottom: 30px;
@@ -73,3 +74,8 @@
   );
 }
 
+@media (max-width: 770px) {
+  .mobile-container {
+    padding: 0px 24px;
+  }
+}

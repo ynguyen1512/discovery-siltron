@@ -28,3 +28,6 @@
   gap: 0px;
   opacity: 0px;
 }
+.footer .cover {
+  max-width: 1440px;
+}
