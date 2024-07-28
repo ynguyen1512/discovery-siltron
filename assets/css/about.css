@@ -6,6 +6,7 @@ body {
 }
 
 .about {
+  justify-content: center;
   display: flex;
   align-items: start;
   margin-top: 93px;
