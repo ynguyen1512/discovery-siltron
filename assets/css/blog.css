@@ -148,7 +148,7 @@
   border-radius: 10px;
 }
 .blog .carousel-indicators li {
-  background-image: url("../svg/diamond.svg");
+  background-image: url("../svg/diamond-purple.svg");
   background-size: cover;
   background-position: center;
   width: 12px !important;
@@ -197,5 +197,8 @@
   .blog .post .detail .icon-group img {
     width: 4px;
     height: 14px;
+  }
+  .carousel-indicators.blog {
+    top: 95%;
   }
 }

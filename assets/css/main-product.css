@@ -1,5 +1,9 @@
 @import './base.css';
 
+.main-product .desktop-screen{
+    margin-top: 107px;
+}
+
 .heading-product {
     text-align: center;
     color: var(--sce-ds);
@@ -239,6 +243,10 @@
 
     .carousel-item .text-container {
         text-align: center;
+    }
+
+    .carousel-indicators {
+        top: 143%;
     }
 
     .carousel-indicators li {

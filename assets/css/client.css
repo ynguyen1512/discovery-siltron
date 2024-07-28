@@ -17,7 +17,7 @@
 
 /* Client Section */
 .client {
-    margin-top: 150px;
+    margin-top: 107px;
     display: flex;
     padding: 0 5px;
     justify-content: center;
@@ -225,6 +225,9 @@
 
 /* Media Queries for Small Screens */
 @media (max-width: 770px) {
+    .client {
+        margin-top: 170px;
+    }
     .client .cover {
         padding: 25px;
     }
