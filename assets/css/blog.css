@@ -161,6 +161,7 @@
 .blog .post-image {
   position: relative;
   overflow: hidden;
+  border-radius: 15px;
 }
 .blog .post-image img {
   display: block;
