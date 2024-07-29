@@ -57,10 +57,13 @@
 
 .icon-text:hover {
   background-color: var(--sce-ds);
-  color: var(--c100-ds);
+  color: var(--c50-ds);
+}
+.icon-text span {
+  padding: 20px;
 }
 .icon-text:hover span {
-  color: var(--c100-ds);
+  color: var(--c50-ds);
 }
 
 .icon-text:hover img {
@@ -69,10 +72,10 @@
 
 .icon-text-active {
   background-color: var(--sce-ds);
-  color: var(--c100-ds);
+  color: var(--c50-ds);
 }
 .icon-text-active span {
-  color: var(--c100-ds) !important;
+  color: var(--c50-ds) !important;
 }
 
 .icon-text p {

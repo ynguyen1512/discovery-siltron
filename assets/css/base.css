@@ -9,6 +9,7 @@
   --sce-ds: #00254e;
   --text-ds: #66717a;
   --c100-ds: #e3eefb;
+  --c50-ds: #f2f8fd;
 }
 ::-webkit-scrollbar {
   width: 5px;
