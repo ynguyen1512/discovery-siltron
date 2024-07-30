@@ -23,7 +23,7 @@
 }
 .float-buttons {
   position: fixed;
-  /* top: 50%; */
+  top: 65%;
   /* bottom: 0; */
   right: 0;
   width: 70px;
@@ -31,6 +31,12 @@
   z-index: 1000;
   border: none;
   animation: smooth-appear 2s ease forwards;
+}
+
+.float-buttons .icon button {
+  background: var(--sce-ds);
+  width: 35px;
+  height: 35px;
 }
 
 .float-buttons .icon {
