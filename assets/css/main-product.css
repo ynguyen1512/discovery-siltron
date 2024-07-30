@@ -11,6 +11,10 @@
   font-weight: 700;
 }
 
+.heading-product.mobile {
+    display: none;
+}
+
 .heading-product span {
   color: var(--pri-ds);
 }
@@ -122,6 +126,9 @@
 @media (max-width: 770px) {
   .main-product .screen-pc {
     display: none;
+  }
+  .heading-product.mobile {
+    display: block;
   }
 
   .desktop-screen {
