@@ -343,8 +343,14 @@
         </div>
       </div>
       <!-- Carousel for smaller screens -->
+      <h1 class="heading-product"><span>Sản Phẩm </span>Chính</h1>
       <div id="aboutCarousel" class="carousel slide d-lg-none" data-bs-ride="carousel">
-        <h1 class="heading-product"><span>Sản Phẩm </span>Chính</h1>
+        <ol class="carousel-indicators">
+          <li  data-target="#aboutCarousel" data-slide-to="0" class="active carousel-indicators-item">
+          </li>
+          <li data-target="#aboutCarousel" data-slide-to="1" class="carousel-indicators-item"></li>
+          <li  data-target="#aboutCarousel" data-slide-to="2" class="carousel-indicators-item"></li>
+        </ol>
         <div class="carousel-inner mt-8">
           <div class="carousel-item active">
             <div>
@@ -353,7 +359,7 @@
                   <img src="assets/images/sand.jpeg" class="img-fluid" alt="Resort 1" />
                 </div>
               </div>
-              <div>
+              <div class="relative">
                 <div class="text-container">
                   <h5 class="mt-2">Cát silica</h5>
                   <p class="desc-mobile">
@@ -405,35 +411,7 @@
             </div>
           </div>
         </div>
-        <ol class="carousel-indicators">
-          <li style="
-                    width: 12px;
-                    height: 12px;
-                    border-radius: 50%;
-                    cursor: pointer;
-                    list-style: none;
-                    margin: 0 5px;
-                  " data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active carousel-indicators-item">
-          </li>
-          <li style="
-                    background-color: white;
-                    width: 12px;
-                    height: 12px;
-                    border-radius: 50%;
-                    list-style: none;
-                    cursor: pointer;
-                    margin: 0 5px;
-                  " data-bs-target="#aboutCarousel" data-bs-slide-to="1" class="carousel-indicators-item"></li>
-          <li style="
-                    background-color: white;
-                    width: 12px;
-                    height: 12px;
-                    border-radius: 50%;
-                    cursor: pointer;
-                    list-style: none;
-                    margin: 0 5px;
-                  " data-bs-target="#aboutCarousel" data-bs-slide-to="2" class="carousel-indicators-item"></li>
-        </ol>
+        
       </div>
       <!-- End of Carousel -->
     </section>
