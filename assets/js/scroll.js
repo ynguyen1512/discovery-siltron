@@ -4,7 +4,6 @@ function checkScrollPosition() {
   var icons = document.getElementById("float-icons");
   var scrollTopbtn = document.getElementById("scroll-top-button");
   if (w > 769) {
-    console.log("Scroll", window.scrollY);
     if (window.scrollY <= 500) {
       buttons.style.display = "none";
       icons.style.display = "flex";
