@@ -38,12 +38,13 @@
   width: 35px;
   height: 35px;
   margin-top: 5px;
+  border-radius: 0;
 }
 
 .float-buttons .icon button:hover {
   background: var(--pri-ds);
   transform: scale(1.2);
-  transition: 0.4s
+  transition: 0.2s;
 }
 
 .float-buttons .icon {
