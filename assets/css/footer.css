@@ -10,6 +10,15 @@
 .footer .footer-about {
   margin-bottom: 30px;
 }
+.footer .list-about li a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+.footer .list-about li a:hover {
+  color: var(--pri-ds);
+  transition: all .2s;
+  text-decoration: none;
+}
 .footer .footer-contact-title {
   margin-bottom: 30px;
 }
@@ -22,7 +31,7 @@
   transition: all .2s;
 }
 .footer a:hover {
-  color: var(--pri-dac);
+  color: var(--pri-ds);
   transition: all .2s;
 }
 .footer .contact-info li {
@@ -63,7 +72,6 @@
   .footer .list-about li {
     height: 15px;
     margin-bottom: 15px;
-    
   }
   .footer div {
     color: var(--c50-dac);
